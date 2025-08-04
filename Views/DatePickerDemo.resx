@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="datePicker8.PrefixSvg" xml:space="preserve">
+    <value>&lt;svg t="1724655338036" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3071" width="200" height="200"&gt;&lt;path d="M819.057629 645.954349l-62.937128 0 0 62.999554 62.937128 0L819.057629 645.954349zM819.057629 771.829612l-62.937128 0 0 62.999554 62.937128 0L819.057629 771.829612zM630.244232 520.078079l-62.938135 0 0 63.00056 62.938135 0L630.244232 520.078079zM630.244232 79.389305 378.494713 79.389305l0 62.938135 251.749519 0L630.244232 79.389305zM284.333689 204.435918c17.270758 0 31.16147-18.747829 31.16147-41.857399L315.495159 58.24715c0-23.048151-13.890712-41.794973-31.16147-41.794973-17.146914 0-31.099044 18.746823-31.099044 41.794973l0 104.332376C253.234645 185.689095 267.186775 204.435918 284.333689 204.435918M724.90164 204.435918c17.576845 0 31.832042-18.747829 31.832042-41.857399L756.733682 58.24715c0-23.048151-14.255197-41.794973-31.832042-41.794973-17.58188 0-31.838083 18.746823-31.838083 41.794973l0 104.332376C693.063556 185.689095 707.31976 204.435918 724.90164 204.435918M630.244232 645.954349l-62.938135 0 0 62.999554 62.938135 0L630.244232 645.954349zM819.057629 520.078079l-62.937128 0 0 63.00056 62.937128 0L819.057629 520.078079zM252.618443 771.829612l-62.939142 0 0 63.058959 62.939142 0L252.618443 771.829612zM252.618443 645.954349l-62.939142 0 0 62.999554 62.939142 0L252.618443 645.954349zM944.932892 79.389305 819.057629 79.389305l0 62.938135 125.87627 0 0 188.815411L63.805046 331.142851 63.805046 142.32744l125.875263 0L189.680309 79.389305 63.805046 79.389305c-65.271041 0-62.938135 64.567243-62.938135 62.938135l0 818.192732c0 61.277814 60.604221 62.938135 62.938135 62.938135l881.128853 0c57.406418 0 62.937128-60.601201 62.937128-62.938135L1007.871027 142.32744C1007.87002 138.057324 1006.21272 79.389305 944.932892 79.389305M944.932892 960.520172 63.805046 960.520172 63.805046 394.080986l881.128853 0L944.933899 960.520172zM630.244232 771.829612l-62.938135 0 0 63.058959 62.938135 0L630.244232 771.829612zM441.433855 645.954349l-62.939142 0 0 62.999554 62.939142 0L441.433855 645.954349zM441.433855 520.078079l-62.939142 0 0 63.00056 62.939142 0L441.433855 520.078079zM441.433855 771.829612l-62.939142 0 0 63.058959 62.939142 0L441.433855 771.829612zM252.618443 520.078079l-62.939142 0 0 63.00056 62.939142 0L252.618443 520.078079z" fill="#272636" p-id="3072"&gt;&lt;/path&gt;&lt;/svg&gt;</value>
+  </data>
+  <data name="datePicker9.SuffixSvg" xml:space="preserve">
+    <value>&lt;svg t="1724655338036" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3071" width="200" height="200"&gt;&lt;path d="M819.057629 645.954349l-62.937128 0 0 62.999554 62.937128 0L819.057629 645.954349zM819.057629 771.829612l-62.937128 0 0 62.999554 62.937128 0L819.057629 771.829612zM630.244232 520.078079l-62.938135 0 0 63.00056 62.938135 0L630.244232 520.078079zM630.244232 79.389305 378.494713 79.389305l0 62.938135 251.749519 0L630.244232 79.389305zM284.333689 204.435918c17.270758 0 31.16147-18.747829 31.16147-41.857399L315.495159 58.24715c0-23.048151-13.890712-41.794973-31.16147-41.794973-17.146914 0-31.099044 18.746823-31.099044 41.794973l0 104.332376C253.234645 185.689095 267.186775 204.435918 284.333689 204.435918M724.90164 204.435918c17.576845 0 31.832042-18.747829 31.832042-41.857399L756.733682 58.24715c0-23.048151-14.255197-41.794973-31.832042-41.794973-17.58188 0-31.838083 18.746823-31.838083 41.794973l0 104.332376C693.063556 185.689095 707.31976 204.435918 724.90164 204.435918M630.244232 645.954349l-62.938135 0 0 62.999554 62.938135 0L630.244232 645.954349zM819.057629 520.078079l-62.937128 0 0 63.00056 62.937128 0L819.057629 520.078079zM252.618443 771.829612l-62.939142 0 0 63.058959 62.939142 0L252.618443 771.829612zM252.618443 645.954349l-62.939142 0 0 62.999554 62.939142 0L252.618443 645.954349zM944.932892 79.389305 819.057629 79.389305l0 62.938135 125.87627 0 0 188.815411L63.805046 331.142851 63.805046 142.32744l125.875263 0L189.680309 79.389305 63.805046 79.389305c-65.271041 0-62.938135 64.567243-62.938135 62.938135l0 818.192732c0 61.277814 60.604221 62.938135 62.938135 62.938135l881.128853 0c57.406418 0 62.937128-60.601201 62.937128-62.938135L1007.871027 142.32744C1007.87002 138.057324 1006.21272 79.389305 944.932892 79.389305M944.932892 960.520172 63.805046 960.520172 63.805046 394.080986l881.128853 0L944.933899 960.520172zM630.244232 771.829612l-62.938135 0 0 63.058959 62.938135 0L630.244232 771.829612zM441.433855 645.954349l-62.939142 0 0 62.999554 62.939142 0L441.433855 645.954349zM441.433855 520.078079l-62.939142 0 0 63.00056 62.939142 0L441.433855 520.078079zM441.433855 771.829612l-62.939142 0 0 63.058959 62.939142 0L441.433855 771.829612zM252.618443 520.078079l-62.939142 0 0 63.00056 62.939142 0L252.618443 520.078079z" fill="#272636" p-id="3072"&gt;&lt;/path&gt;&lt;/svg&gt;</value>
+  </data>
+</root>
