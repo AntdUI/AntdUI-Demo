@@ -4,7 +4,7 @@
 
 <h1>AntdUI Demo</h1>
 
-This project is developed based on `Winform .NET Framework 4.8`, and is a demo project of [AntdUI](https://gitee.com/antdui/AntdUI), the current version is `1.9.12`
+This project is developed based on `Winform .NET Framework 4.8`, and is a demo project of [AntdUI](https://gitee.com/antdui/AntdUI), the current version is `2.0.16`
 
 </div>
 

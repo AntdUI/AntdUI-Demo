@@ -7,7 +7,6 @@ using AntdUIDemo.Views;
 using AntdUIDemo.Views.SubView;
 using Microsoft.Win32;
 using System;
-using System.CodeDom;
 using System.Linq;
 using System.Windows.Forms;
 
@@ -23,6 +22,7 @@ namespace AntdUIDemo
         public MainWindow()
         {
             InitializeComponent();
+            titlebar.Text = "AntdUI " + titlebar.ProductVersion;
             //加载菜单
             LoadMenu();
             //初始化数据
@@ -307,7 +307,7 @@ namespace AntdUIDemo
                     break;
                 case "Icon":
                     control = new IconDemo(this);
-                    this.LanguageChanged += ((IconDemo)control).OnLanguageChanged;
+                    LanguageChanged += ((IconDemo)control).OnLanguageChanged;
                     break;
                 case "Divider":
                     control = new DividerDemo();

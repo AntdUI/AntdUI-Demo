@@ -13,7 +13,7 @@
 		<Copyright>Copyright © 2025 czz_y</Copyright>
 		<FileVersion>$(Version)</FileVersion>
 		<AssemblyVersion>$(Version)</AssemblyVersion>
-		<Version>1.9.11</Version>
+		<Version>2.0.16</Version>
 		<Authors>czz_y</Authors>
 		<Description>基于 Winform UI 框架 AntdUI 设计的 Demo</Description>
 		<PackageProjectUrl>https://gitee.com/mubaiyanghua/antd-uidemo</PackageProjectUrl>

@@ -63,7 +63,7 @@
             this.titlebar.Size = new System.Drawing.Size(1024, 40);
             this.titlebar.SubText = "Demo";
             this.titlebar.TabIndex = 0;
-            this.titlebar.Text = "AntdUI 1.9.12";
+            this.titlebar.Text = "AntdUI 2.0.16";
             // 
             // input_search
             // 
