@@ -119,7 +119,7 @@ namespace AntdUIDemo
         {
             if (_table == null || _table.IsDisposed) return;
 
-            var filtered = (List<T>)ApplySearchFilter(DataSource).ToList();
+            var filtered = ApplySearchFilter(DataSource).ToList();
             _table.DataSource = filtered;
         }
 
@@ -132,7 +132,7 @@ namespace AntdUIDemo
             return source.Where(item => Columns.Any(col =>
             {
                 var propValue = GetPropertyValue(item, col.Key);
-                return propValue.ToString().Contains(txtSearch.Text) ;
+                return propValue.ToString().Contains(txtSearch.Text);
             })
             );
         }
@@ -207,6 +207,7 @@ namespace AntdUIDemo
             _table.Size = new Size(controlWidth, 300);
             _popover = Popover.open(new Popover.Config(txtSearch, _table)
             {
+                Focus = false,
                 OnControlLoad = () => BeginInvoke(new Action(() =>
                 {
                     txtSearch.Focus();

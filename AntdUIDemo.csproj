@@ -13,7 +13,7 @@
 		<Copyright>Copyright © 2025 czz_y</Copyright>
 		<FileVersion>$(Version)</FileVersion>
 		<AssemblyVersion>$(Version)</AssemblyVersion>
-		<Version>2.0.16</Version>
+		<Version>2.1.0</Version>
 		<Authors>czz_y</Authors>
 		<Description>基于 Winform UI 框架 AntdUI 设计的 Demo</Description>
 		<PackageProjectUrl>https://gitee.com/mubaiyanghua/antd-uidemo</PackageProjectUrl>
@@ -25,20 +25,12 @@
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 	</PropertyGroup>
 
-	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-	  <DebugType>full</DebugType>
-	</PropertyGroup>
-
-	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-	  <DebugType>full</DebugType>
-	</PropertyGroup>
-
 	<ItemGroup>
 		<Content Include="assets\*" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="AntdUI" Version="2.0.16" />
+		<PackageReference Include="AntdUI" Version="2.1.0" />
 		<PackageReference Include="Costura.Fody" Version="6.0.0">
 		  <PrivateAssets>all</PrivateAssets>
 		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

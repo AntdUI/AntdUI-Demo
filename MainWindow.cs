@@ -141,14 +141,8 @@ namespace AntdUIDemo
 
         private void Button_collapse_Click(object sender, EventArgs e)
         {
-            if (menu.Collapsed)
-            {
-                menu.Width = (int)(250 * Config.Dpi);
-            }
-            else
-            {
-                menu.Width = (int)(70 * Config.Dpi);
-            }
+            if (menu.Collapsed) panel_left.Width = (int)(250 * Config.Dpi);
+            else panel_left.Width = (int)(50 * Config.Dpi);
             button_collapse.Toggle = !button_collapse.Toggle;
             menu.Collapsed = !menu.Collapsed;
         }
