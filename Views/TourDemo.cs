@@ -1,13 +1,6 @@
-﻿using AntdUI;
 using AntdUIDemo.Views.SubView;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace AntdUIDemo.Views
@@ -64,7 +57,7 @@ namespace AntdUIDemo.Views
                     {
                         Offset = info.Rect.Value,
                         Focus = false,
-                        Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, ((byte)(134))),
+                        Font = new Font("Microsoft YaHei UI", 10F),
                     });
                 });
             }
@@ -102,11 +95,11 @@ namespace AntdUIDemo.Views
                     popover?.Close();
                     popover = null;
                     //也可以弹自定义控件，用法同Popover
-                    if (info.Rect.HasValue) popover = AntdUI.Popover.open(new AntdUI.Popover.Config(info.Form, "提示", "第"+(info.Index+1)+"步")
+                    if (info.Rect.HasValue) popover = AntdUI.Popover.open(new AntdUI.Popover.Config(info.Form, "提示", "第" + (info.Index + 1) + "步")
                     {
                         Offset = info.Rect.Value,
                         Focus = false,
-                        Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, ((byte)(134))),
+                        Font = new Font("Microsoft YaHei UI", 10F),
                     });
                 });
             }

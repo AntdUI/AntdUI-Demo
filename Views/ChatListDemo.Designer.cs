@@ -1,4 +1,4 @@
-﻿namespace AntdUIDemo.Views
+namespace AntdUIDemo.Views
 {
     partial class ChatListDemo
     {
@@ -44,7 +44,7 @@
             this.header1.Name = "header1";
             this.header1.Padding = new System.Windows.Forms.Padding(0, 0, 0, 10);
             this.header1.Size = new System.Drawing.Size(750, 74);
-            this.header1.TabIndex = 27;
+            this.header1.TabIndex = 0;
             this.header1.Text = "ChatList 气泡聊天列表";
             this.header1.UseTitleFont = true;
             // 
@@ -57,8 +57,7 @@
             this.panel1.Radius = 0;
             this.panel1.Shadow = 12;
             this.panel1.Size = new System.Drawing.Size(750, 483);
-            this.panel1.TabIndex = 32;
-            this.panel1.Text = "panel1";
+            this.panel1.TabIndex = 1;
             // 
             // chatList
             // 
@@ -67,7 +66,6 @@
             this.chatList.Name = "chatList";
             this.chatList.Size = new System.Drawing.Size(726, 459);
             this.chatList.TabIndex = 0;
-            this.chatList.Text = "chatList1";
             // 
             // ChatListDemo
             // 

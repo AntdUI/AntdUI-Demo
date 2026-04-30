@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
@@ -17,7 +17,7 @@ namespace AntdUIDemo.Views
 
         private void BindEventHandler()
         {
-            this.Load += ChatListDemo_Load;
+            Load += ChatListDemo_Load;
         }
 
         private void ChatListDemo_Load(object sender, EventArgs e)

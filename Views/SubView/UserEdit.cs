@@ -1,4 +1,4 @@
-﻿using AntdUIDemo.Models;
+using AntdUIDemo.Models;
 using System;
 using System.Windows.Forms;
 
@@ -11,7 +11,7 @@ namespace AntdUIDemo.Views.Table
         public bool submit;
         public UserEdit(AntdUI.Window _window, User _user)
         {
-            this.window = _window;
+            window = _window;
             user = _user;
             InitializeComponent();
             //设置默认值
@@ -29,7 +29,7 @@ namespace AntdUIDemo.Views.Table
         private void Button_cancel_Click(object sender, EventArgs e)
         {
             submit = false;
-            this.Dispose();
+            Dispose();
         }
 
         private void Button_ok_Click(object sender, EventArgs e)
@@ -46,7 +46,7 @@ namespace AntdUIDemo.Views.Table
             user.Address = input_addr.Text;
             user.Age = (int)input_age.Value;
             submit = true;
-            this.Dispose();
+            Dispose();
         }
 
         private void InitData()

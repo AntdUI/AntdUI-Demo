@@ -1,4 +1,4 @@
-﻿namespace AntdUIDemo.Views.Table
+namespace AntdUIDemo.Views.Table
 {
     partial class UserEdit
     {
@@ -76,7 +76,6 @@
             // 
             // button_ok
             // 
-            this.button_ok.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button_ok.Location = new System.Drawing.Point(3, 3);
             this.button_ok.Name = "button_ok";
             this.button_ok.Size = new System.Drawing.Size(75, 38);
@@ -87,7 +86,6 @@
             // button_cancel
             // 
             this.button_cancel.BorderWidth = 1F;
-            this.button_cancel.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F);
             this.button_cancel.Ghost = true;
             this.button_cancel.Location = new System.Drawing.Point(84, 3);
             this.button_cancel.Name = "button_cancel";
@@ -106,7 +104,6 @@
             // input_addr
             // 
             this.input_addr.Dock = System.Windows.Forms.DockStyle.Top;
-            this.input_addr.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.input_addr.Location = new System.Drawing.Point(18, 222);
             this.input_addr.Name = "input_addr";
             this.input_addr.Radius = 3;
@@ -116,7 +113,7 @@
             // label2
             // 
             this.label2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
             this.label2.Location = new System.Drawing.Point(18, 198);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(464, 24);
@@ -126,7 +123,6 @@
             // input_age
             // 
             this.input_age.Dock = System.Windows.Forms.DockStyle.Top;
-            this.input_age.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F);
             this.input_age.Location = new System.Drawing.Point(18, 160);
             this.input_age.Maximum = new decimal(new int[] {
             200,
@@ -147,7 +143,7 @@
             // label1
             // 
             this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
             this.label1.Location = new System.Drawing.Point(18, 136);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(464, 24);
@@ -157,7 +153,6 @@
             // input_name
             // 
             this.input_name.Dock = System.Windows.Forms.DockStyle.Top;
-            this.input_name.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.input_name.Location = new System.Drawing.Point(18, 98);
             this.input_name.Name = "input_name";
             this.input_name.Radius = 3;
@@ -167,7 +162,7 @@
             // label3
             // 
             this.label3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
             this.label3.Location = new System.Drawing.Point(18, 74);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(464, 24);

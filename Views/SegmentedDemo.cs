@@ -1,4 +1,3 @@
-﻿using AntdUI;
 using System.Windows.Forms;
 
 namespace AntdUIDemo.Views

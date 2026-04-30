@@ -1,4 +1,4 @@
-﻿namespace AntdUIDemo.Views
+namespace AntdUIDemo.Views
 {
     partial class BadgeDemo
     {
@@ -30,36 +30,36 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BadgeDemo));
             this.header1 = new AntdUI.PageHeader();
-            this.stackPanel1 = new AntdUI.StackPanel();
-            this.flowPanel9 = new AntdUI.FlowPanel();
+            this.panelMain = new AntdUI.In.Panel();
+            this.p4 = new AntdUI.FlowPanel();
             this.button30 = new AntdUI.Button();
             this.button31 = new AntdUI.Button();
             this.button32 = new AntdUI.Button();
             this.button38 = new AntdUI.Button();
             this.button40 = new AntdUI.Button();
             this.button41 = new AntdUI.Button();
-            this.label4 = new AntdUI.Label();
-            this.flowPanel3 = new AntdUI.FlowPanel();
+            this.h2 = new AntdUI.Label();
+            this.p3 = new AntdUI.FlowPanel();
             this.badge12 = new AntdUI.Badge();
             this.badge4 = new AntdUI.Badge();
             this.badge8 = new AntdUI.Badge();
             this.badge9 = new AntdUI.Badge();
             this.badge10 = new AntdUI.Badge();
             this.badge11 = new AntdUI.Badge();
-            this.flowPanel2 = new AntdUI.FlowPanel();
+            this.p2 = new AntdUI.FlowPanel();
             this.badge7 = new AntdUI.Badge();
-            this.flowPanel1 = new AntdUI.FlowPanel();
+            this.p1 = new AntdUI.FlowPanel();
             this.badge5 = new AntdUI.Badge();
             this.badge3 = new AntdUI.Badge();
             this.badge2 = new AntdUI.Badge();
             this.badge1 = new AntdUI.Badge();
             this.badge6 = new AntdUI.Badge();
-            this.label3 = new AntdUI.Label();
-            this.stackPanel1.SuspendLayout();
-            this.flowPanel9.SuspendLayout();
-            this.flowPanel3.SuspendLayout();
-            this.flowPanel2.SuspendLayout();
-            this.flowPanel1.SuspendLayout();
+            this.h1 = new AntdUI.Label();
+            this.panelMain.SuspendLayout();
+            this.p4.SuspendLayout();
+            this.p3.SuspendLayout();
+            this.p2.SuspendLayout();
+            this.p1.SuspendLayout();
             this.SuspendLayout();
             // 
             // header1
@@ -72,44 +72,41 @@
             this.header1.Name = "header1";
             this.header1.Padding = new System.Windows.Forms.Padding(0, 0, 0, 10);
             this.header1.Size = new System.Drawing.Size(750, 74);
-            this.header1.TabIndex = 21;
+            this.header1.TabIndex = 0;
             this.header1.Text = "Badge 徽标数";
             this.header1.UseTitleFont = true;
             // 
-            // stackPanel1
+            // panelMain
             // 
-            this.stackPanel1.Controls.Add(this.flowPanel9);
-            this.stackPanel1.Controls.Add(this.label4);
-            this.stackPanel1.Controls.Add(this.flowPanel3);
-            this.stackPanel1.Controls.Add(this.flowPanel2);
-            this.stackPanel1.Controls.Add(this.flowPanel1);
-            this.stackPanel1.Controls.Add(this.label3);
-            this.stackPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.stackPanel1.Location = new System.Drawing.Point(0, 74);
-            this.stackPanel1.Name = "stackPanel1";
-            this.stackPanel1.Size = new System.Drawing.Size(750, 393);
-            this.stackPanel1.TabIndex = 0;
-            this.stackPanel1.Text = "stackPanel1";
-            this.stackPanel1.Vertical = true;
+            this.panelMain.Controls.Add(this.p4);
+            this.panelMain.Controls.Add(this.h2);
+            this.panelMain.Controls.Add(this.p3);
+            this.panelMain.Controls.Add(this.p2);
+            this.panelMain.Controls.Add(this.p1);
+            this.panelMain.Controls.Add(this.h1);
+            this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelMain.Location = new System.Drawing.Point(0, 74);
+            this.panelMain.Name = "panelMain";
+            this.panelMain.Size = new System.Drawing.Size(750, 393);
+            this.panelMain.TabIndex = 0;
             // 
-            // flowPanel9
+            // p4
             // 
-            this.flowPanel9.Controls.Add(this.button30);
-            this.flowPanel9.Controls.Add(this.button31);
-            this.flowPanel9.Controls.Add(this.button32);
-            this.flowPanel9.Controls.Add(this.button38);
-            this.flowPanel9.Controls.Add(this.button40);
-            this.flowPanel9.Controls.Add(this.button41);
-            this.flowPanel9.Location = new System.Drawing.Point(3, 195);
-            this.flowPanel9.Name = "flowPanel9";
-            this.flowPanel9.Size = new System.Drawing.Size(744, 44);
-            this.flowPanel9.TabIndex = 31;
-            this.flowPanel9.Text = "flowPanel9";
+            this.p4.Controls.Add(this.button30);
+            this.p4.Controls.Add(this.button31);
+            this.p4.Controls.Add(this.button32);
+            this.p4.Controls.Add(this.button38);
+            this.p4.Controls.Add(this.button40);
+            this.p4.Controls.Add(this.button41);
+            this.p4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.p4.Location = new System.Drawing.Point(0, 162);
+            this.p4.Name = "p4";
+            this.p4.Size = new System.Drawing.Size(750, 44);
+            this.p4.TabIndex = 4;
             // 
             // button30
             // 
             this.button30.BadgeSvg = "DeleteFilled";
-            this.button30.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button30.Location = new System.Drawing.Point(433, 3);
             this.button30.Name = "button30";
             this.button30.Size = new System.Drawing.Size(80, 38);
@@ -120,7 +117,6 @@
             // button31
             // 
             this.button31.BadgeSvg = resources.GetString("button31.BadgeSvg");
-            this.button31.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button31.Location = new System.Drawing.Point(347, 3);
             this.button31.Name = "button31";
             this.button31.Size = new System.Drawing.Size(80, 38);
@@ -133,7 +129,6 @@
             this.button32.Badge = "1";
             this.button32.BadgeAlign = AntdUI.TAlign.BR;
             this.button32.BadgeBack = System.Drawing.Color.Orange;
-            this.button32.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button32.Location = new System.Drawing.Point(261, 3);
             this.button32.Name = "button32";
             this.button32.Size = new System.Drawing.Size(80, 38);
@@ -144,7 +139,6 @@
             // button38
             // 
             this.button38.Badge = "99+";
-            this.button38.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button38.Location = new System.Drawing.Point(175, 3);
             this.button38.Name = "button38";
             this.button38.Size = new System.Drawing.Size(80, 38);
@@ -155,7 +149,6 @@
             // button40
             // 
             this.button40.Badge = "1";
-            this.button40.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button40.Location = new System.Drawing.Point(89, 3);
             this.button40.Name = "button40";
             this.button40.Size = new System.Drawing.Size(80, 38);
@@ -166,40 +159,41 @@
             // button41
             // 
             this.button41.Badge = "";
-            this.button41.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button41.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button41.Location = new System.Drawing.Point(3, 3);
             this.button41.Name = "button41";
             this.button41.Size = new System.Drawing.Size(80, 38);
             this.button41.TabIndex = 0;
             this.button41.Text = "Default";
             // 
-            // label4
+            // h2
             // 
-            this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label4.Location = new System.Drawing.Point(3, 165);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(744, 24);
-            this.label4.TabIndex = 30;
-            this.label4.Text = "控件组合";
+            this.h2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.h2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
+            this.h2.Location = new System.Drawing.Point(0, 138);
+            this.h2.Name = "h2";
+            this.h2.PrefixColour = AntdUI.Colour.Primary;
+            this.h2.PrefixSvg = global::AntdUIDemo.Properties.Resources.icon_divider;
+            this.h2.Size = new System.Drawing.Size(750, 24);
+            this.h2.TabIndex = 0;
+            this.h2.Text = "控件组合";
             // 
-            // flowPanel3
+            // p3
             // 
-            this.flowPanel3.Controls.Add(this.badge12);
-            this.flowPanel3.Controls.Add(this.badge4);
-            this.flowPanel3.Controls.Add(this.badge8);
-            this.flowPanel3.Controls.Add(this.badge9);
-            this.flowPanel3.Controls.Add(this.badge10);
-            this.flowPanel3.Controls.Add(this.badge11);
-            this.flowPanel3.Location = new System.Drawing.Point(3, 121);
-            this.flowPanel3.Name = "flowPanel3";
-            this.flowPanel3.Size = new System.Drawing.Size(744, 38);
-            this.flowPanel3.TabIndex = 29;
-            this.flowPanel3.Text = "flowPanel3";
+            this.p3.Controls.Add(this.badge12);
+            this.p3.Controls.Add(this.badge4);
+            this.p3.Controls.Add(this.badge8);
+            this.p3.Controls.Add(this.badge9);
+            this.p3.Controls.Add(this.badge10);
+            this.p3.Controls.Add(this.badge11);
+            this.p3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.p3.Location = new System.Drawing.Point(0, 100);
+            this.p3.Name = "p3";
+            this.p3.Size = new System.Drawing.Size(750, 38);
+            this.p3.TabIndex = 3;
             // 
             // badge12
             // 
-            this.badge12.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.badge12.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
             this.badge12.Location = new System.Drawing.Point(193, 3);
             this.badge12.Name = "badge12";
             this.badge12.Size = new System.Drawing.Size(32, 32);
@@ -208,7 +202,7 @@
             // 
             // badge4
             // 
-            this.badge4.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.badge4.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
             this.badge4.Location = new System.Drawing.Point(155, 3);
             this.badge4.Name = "badge4";
             this.badge4.Size = new System.Drawing.Size(32, 32);
@@ -217,7 +211,7 @@
             // 
             // badge8
             // 
-            this.badge8.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.badge8.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
             this.badge8.Location = new System.Drawing.Point(117, 3);
             this.badge8.Name = "badge8";
             this.badge8.Size = new System.Drawing.Size(32, 32);
@@ -226,7 +220,7 @@
             // 
             // badge9
             // 
-            this.badge9.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.badge9.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
             this.badge9.Location = new System.Drawing.Point(79, 3);
             this.badge9.Name = "badge9";
             this.badge9.Size = new System.Drawing.Size(32, 32);
@@ -235,7 +229,7 @@
             // 
             // badge10
             // 
-            this.badge10.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.badge10.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
             this.badge10.Location = new System.Drawing.Point(41, 3);
             this.badge10.Name = "badge10";
             this.badge10.Size = new System.Drawing.Size(32, 32);
@@ -244,24 +238,24 @@
             // 
             // badge11
             // 
-            this.badge11.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.badge11.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
             this.badge11.Location = new System.Drawing.Point(3, 3);
             this.badge11.Name = "badge11";
             this.badge11.Size = new System.Drawing.Size(32, 32);
             this.badge11.TabIndex = 5;
             // 
-            // flowPanel2
+            // p2
             // 
-            this.flowPanel2.Controls.Add(this.badge7);
-            this.flowPanel2.Location = new System.Drawing.Point(3, 77);
-            this.flowPanel2.Name = "flowPanel2";
-            this.flowPanel2.Size = new System.Drawing.Size(744, 38);
-            this.flowPanel2.TabIndex = 28;
-            this.flowPanel2.Text = "flowPanel2";
+            this.p2.Controls.Add(this.badge7);
+            this.p2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.p2.Location = new System.Drawing.Point(0, 62);
+            this.p2.Name = "p2";
+            this.p2.Size = new System.Drawing.Size(750, 38);
+            this.p2.TabIndex = 2;
             // 
             // badge7
             // 
-            this.badge7.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.badge7.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
             this.badge7.Location = new System.Drawing.Point(3, 3);
             this.badge7.Name = "badge7";
             this.badge7.Size = new System.Drawing.Size(120, 32);
@@ -269,22 +263,22 @@
             this.badge7.TabIndex = 12;
             this.badge7.Text = "Processing";
             // 
-            // flowPanel1
+            // p1
             // 
-            this.flowPanel1.Controls.Add(this.badge5);
-            this.flowPanel1.Controls.Add(this.badge3);
-            this.flowPanel1.Controls.Add(this.badge2);
-            this.flowPanel1.Controls.Add(this.badge1);
-            this.flowPanel1.Controls.Add(this.badge6);
-            this.flowPanel1.Location = new System.Drawing.Point(3, 33);
-            this.flowPanel1.Name = "flowPanel1";
-            this.flowPanel1.Size = new System.Drawing.Size(744, 38);
-            this.flowPanel1.TabIndex = 27;
-            this.flowPanel1.Text = "flowPanel1";
+            this.p1.Controls.Add(this.badge5);
+            this.p1.Controls.Add(this.badge3);
+            this.p1.Controls.Add(this.badge2);
+            this.p1.Controls.Add(this.badge1);
+            this.p1.Controls.Add(this.badge6);
+            this.p1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.p1.Location = new System.Drawing.Point(0, 24);
+            this.p1.Name = "p1";
+            this.p1.Size = new System.Drawing.Size(750, 38);
+            this.p1.TabIndex = 1;
             // 
             // badge5
             // 
-            this.badge5.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.badge5.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
             this.badge5.Location = new System.Drawing.Point(507, 3);
             this.badge5.Name = "badge5";
             this.badge5.Size = new System.Drawing.Size(120, 32);
@@ -294,7 +288,7 @@
             // 
             // badge3
             // 
-            this.badge3.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.badge3.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
             this.badge3.Location = new System.Drawing.Point(381, 3);
             this.badge3.Name = "badge3";
             this.badge3.Size = new System.Drawing.Size(120, 32);
@@ -304,7 +298,7 @@
             // 
             // badge2
             // 
-            this.badge2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.badge2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
             this.badge2.Location = new System.Drawing.Point(255, 3);
             this.badge2.Name = "badge2";
             this.badge2.Size = new System.Drawing.Size(120, 32);
@@ -314,7 +308,7 @@
             // 
             // badge1
             // 
-            this.badge1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.badge1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
             this.badge1.Location = new System.Drawing.Point(129, 3);
             this.badge1.Name = "badge1";
             this.badge1.Size = new System.Drawing.Size(120, 32);
@@ -324,34 +318,36 @@
             // 
             // badge6
             // 
-            this.badge6.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.badge6.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
             this.badge6.Location = new System.Drawing.Point(3, 3);
             this.badge6.Name = "badge6";
             this.badge6.Size = new System.Drawing.Size(120, 32);
             this.badge6.TabIndex = 5;
             this.badge6.Text = "Default";
             // 
-            // label3
+            // h1
             // 
-            this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label3.Location = new System.Drawing.Point(3, 3);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(744, 24);
-            this.label3.TabIndex = 26;
-            this.label3.Text = "基本用法";
+            this.h1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.h1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
+            this.h1.Location = new System.Drawing.Point(0, 0);
+            this.h1.Name = "h1";
+            this.h1.PrefixColour = AntdUI.Colour.Primary;
+            this.h1.PrefixSvg = global::AntdUIDemo.Properties.Resources.icon_divider;
+            this.h1.Size = new System.Drawing.Size(750, 24);
+            this.h1.TabIndex = 0;
+            this.h1.Text = "基本用法";
             // 
             // BadgeDemo
             // 
-            
-            this.Controls.Add(this.stackPanel1);
+            this.Controls.Add(this.panelMain);
             this.Controls.Add(this.header1);
             this.Name = "BadgeDemo";
             this.Size = new System.Drawing.Size(750, 467);
-            this.stackPanel1.ResumeLayout(false);
-            this.flowPanel9.ResumeLayout(false);
-            this.flowPanel3.ResumeLayout(false);
-            this.flowPanel2.ResumeLayout(false);
-            this.flowPanel1.ResumeLayout(false);
+            this.panelMain.ResumeLayout(false);
+            this.p4.ResumeLayout(false);
+            this.p3.ResumeLayout(false);
+            this.p2.ResumeLayout(false);
+            this.p1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -359,25 +355,25 @@
         #endregion
 
         private AntdUI.PageHeader header1;
-        private AntdUI.StackPanel stackPanel1;
-        private AntdUI.Label label3;
-        private AntdUI.FlowPanel flowPanel1;
+        private AntdUI.In.Panel panelMain;
+        private AntdUI.Label h1;
+        private AntdUI.FlowPanel p1;
         private AntdUI.Badge badge6;
         private AntdUI.Badge badge5;
         private AntdUI.Badge badge3;
         private AntdUI.Badge badge2;
         private AntdUI.Badge badge1;
-        private AntdUI.FlowPanel flowPanel2;
+        private AntdUI.FlowPanel p2;
         private AntdUI.Badge badge7;
-        private AntdUI.FlowPanel flowPanel3;
+        private AntdUI.FlowPanel p3;
         private AntdUI.Badge badge4;
         private AntdUI.Badge badge8;
         private AntdUI.Badge badge9;
         private AntdUI.Badge badge10;
         private AntdUI.Badge badge11;
         private AntdUI.Badge badge12;
-        private AntdUI.Label label4;
-        private AntdUI.FlowPanel flowPanel9;
+        private AntdUI.Label h2;
+        private AntdUI.FlowPanel p4;
         private AntdUI.Button button30;
         private AntdUI.Button button31;
         private AntdUI.Button button32;

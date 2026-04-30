@@ -1,4 +1,4 @@
-﻿namespace AntdUIDemo.Views
+namespace AntdUIDemo.Views
 {
     partial class AlertDemo
     {
@@ -29,28 +29,28 @@
         private void InitializeComponent()
         {
             this.header1 = new AntdUI.PageHeader();
-            this.stackPanel1 = new AntdUI.StackPanel();
+            this.panelMain = new AntdUI.In.Panel();
             this.alert9 = new AntdUI.Alert();
-            this.label6 = new AntdUI.Label();
-            this.flowPanel3 = new AntdUI.FlowPanel();
+            this.h4 = new AntdUI.Label();
+            this.p3 = new AntdUI.FlowPanel();
             this.alert12 = new AntdUI.Alert();
-            this.label5 = new AntdUI.Label();
-            this.flowPanel1 = new AntdUI.FlowPanel();
+            this.h3 = new AntdUI.Label();
+            this.p2 = new AntdUI.FlowPanel();
             this.alert5 = new AntdUI.Alert();
             this.alert6 = new AntdUI.Alert();
             this.alert7 = new AntdUI.Alert();
             this.alert8 = new AntdUI.Alert();
-            this.label4 = new AntdUI.Label();
-            this.flowPanel2 = new AntdUI.FlowPanel();
+            this.h2 = new AntdUI.Label();
+            this.p1 = new AntdUI.FlowPanel();
             this.alert4 = new AntdUI.Alert();
             this.alert3 = new AntdUI.Alert();
             this.alert2 = new AntdUI.Alert();
             this.alert1 = new AntdUI.Alert();
-            this.label3 = new AntdUI.Label();
-            this.stackPanel1.SuspendLayout();
-            this.flowPanel3.SuspendLayout();
-            this.flowPanel1.SuspendLayout();
-            this.flowPanel2.SuspendLayout();
+            this.h1 = new AntdUI.Label();
+            this.panelMain.SuspendLayout();
+            this.p3.SuspendLayout();
+            this.p2.SuspendLayout();
+            this.p1.SuspendLayout();
             this.SuspendLayout();
             // 
             // header1
@@ -67,91 +67,95 @@
             this.header1.Text = "Alert 警告提示";
             this.header1.UseTitleFont = true;
             // 
-            // stackPanel1
+            // panelMain
             // 
-            this.stackPanel1.AutoScroll = true;
-            this.stackPanel1.Controls.Add(this.alert9);
-            this.stackPanel1.Controls.Add(this.label6);
-            this.stackPanel1.Controls.Add(this.flowPanel3);
-            this.stackPanel1.Controls.Add(this.label5);
-            this.stackPanel1.Controls.Add(this.flowPanel1);
-            this.stackPanel1.Controls.Add(this.label4);
-            this.stackPanel1.Controls.Add(this.flowPanel2);
-            this.stackPanel1.Controls.Add(this.label3);
-            this.stackPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.stackPanel1.Location = new System.Drawing.Point(0, 74);
-            this.stackPanel1.Name = "stackPanel1";
-            this.stackPanel1.Size = new System.Drawing.Size(750, 431);
-            this.stackPanel1.TabIndex = 0;
-            this.stackPanel1.Text = "stackPanel1";
-            this.stackPanel1.Vertical = true;
+            this.panelMain.AutoScroll = true;
+            this.panelMain.Controls.Add(this.alert9);
+            this.panelMain.Controls.Add(this.h4);
+            this.panelMain.Controls.Add(this.p3);
+            this.panelMain.Controls.Add(this.h3);
+            this.panelMain.Controls.Add(this.p2);
+            this.panelMain.Controls.Add(this.h2);
+            this.panelMain.Controls.Add(this.p1);
+            this.panelMain.Controls.Add(this.h1);
+            this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelMain.Location = new System.Drawing.Point(0, 74);
+            this.panelMain.Name = "panelMain";
+            this.panelMain.Size = new System.Drawing.Size(750, 431);
+            this.panelMain.TabIndex = 0;
             // 
             // alert9
             // 
             this.alert9.BackColor = System.Drawing.Color.Pink;
-            this.alert9.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.alert9.Location = new System.Drawing.Point(3, 287);
+            this.alert9.Dock = System.Windows.Forms.DockStyle.Top;
+            this.alert9.Location = new System.Drawing.Point(0, 246);
             this.alert9.Loop = true;
             this.alert9.Name = "alert9";
-            this.alert9.Size = new System.Drawing.Size(744, 32);
-            this.alert9.TabIndex = 45;
+            this.alert9.Size = new System.Drawing.Size(750, 32);
+            this.alert9.TabIndex = 4;
             this.alert9.Text = "I can be a React component, multiple React components, or just some text.";
             // 
-            // label6
+            // h4
             // 
-            this.label6.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label6.Location = new System.Drawing.Point(3, 257);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(744, 24);
-            this.label6.TabIndex = 44;
-            this.label6.Text = "轮播";
+            this.h4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.h4.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
+            this.h4.Location = new System.Drawing.Point(0, 222);
+            this.h4.Name = "h4";
+            this.h4.PrefixColour = AntdUI.Colour.Primary;
+            this.h4.PrefixSvg = global::AntdUIDemo.Properties.Resources.icon_divider;
+            this.h4.Size = new System.Drawing.Size(750, 24);
+            this.h4.TabIndex = 0;
+            this.h4.Text = "轮播";
             // 
-            // flowPanel3
+            // p3
             // 
-            this.flowPanel3.Controls.Add(this.alert12);
-            this.flowPanel3.Location = new System.Drawing.Point(3, 181);
-            this.flowPanel3.Name = "flowPanel3";
-            this.flowPanel3.Size = new System.Drawing.Size(744, 70);
-            this.flowPanel3.TabIndex = 43;
-            this.flowPanel3.Text = "flowPanel3";
+            this.p3.Controls.Add(this.alert12);
+            this.p3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.p3.Location = new System.Drawing.Point(0, 148);
+            this.p3.Name = "p3";
+            this.p3.Size = new System.Drawing.Size(750, 74);
+            this.p3.TabIndex = 3;
+            this.p3.Text = "flowPanel3";
             // 
             // alert12
             // 
             this.alert12.BorderWidth = 2F;
-            this.alert12.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.alert12.Icon = AntdUI.TType.Success;
             this.alert12.Location = new System.Drawing.Point(3, 3);
             this.alert12.Name = "alert12";
-            this.alert12.Size = new System.Drawing.Size(498, 59);
+            this.alert12.Size = new System.Drawing.Size(498, 68);
             this.alert12.TabIndex = 0;
             this.alert12.Text = "Success Description Success Description Success Description";
             this.alert12.TextTitle = "Success Text";
             // 
-            // label5
+            // h3
             // 
-            this.label5.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label5.Location = new System.Drawing.Point(3, 151);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(744, 24);
-            this.label5.TabIndex = 42;
-            this.label5.Text = "副文本";
+            this.h3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.h3.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
+            this.h3.Location = new System.Drawing.Point(0, 124);
+            this.h3.Name = "h3";
+            this.h3.PrefixColour = AntdUI.Colour.Primary;
+            this.h3.PrefixSvg = global::AntdUIDemo.Properties.Resources.icon_divider;
+            this.h3.Size = new System.Drawing.Size(750, 24);
+            this.h3.TabIndex = 0;
+            this.h3.Text = "副文本";
             // 
-            // flowPanel1
+            // p2
             // 
-            this.flowPanel1.Controls.Add(this.alert5);
-            this.flowPanel1.Controls.Add(this.alert6);
-            this.flowPanel1.Controls.Add(this.alert7);
-            this.flowPanel1.Controls.Add(this.alert8);
-            this.flowPanel1.Location = new System.Drawing.Point(3, 107);
-            this.flowPanel1.Name = "flowPanel1";
-            this.flowPanel1.Size = new System.Drawing.Size(744, 38);
-            this.flowPanel1.TabIndex = 41;
-            this.flowPanel1.Text = "flowPanel1";
+            this.p2.Controls.Add(this.alert5);
+            this.p2.Controls.Add(this.alert6);
+            this.p2.Controls.Add(this.alert7);
+            this.p2.Controls.Add(this.alert8);
+            this.p2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.p2.Location = new System.Drawing.Point(0, 86);
+            this.p2.Name = "p2";
+            this.p2.Size = new System.Drawing.Size(750, 38);
+            this.p2.TabIndex = 2;
+            this.p2.Text = "flowPanel1";
             // 
             // alert5
             // 
             this.alert5.BorderWidth = 2F;
-            this.alert5.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.alert5.Icon = AntdUI.TType.Error;
             this.alert5.Location = new System.Drawing.Point(381, 3);
             this.alert5.Name = "alert5";
@@ -162,7 +166,6 @@
             // alert6
             // 
             this.alert6.BorderWidth = 2F;
-            this.alert6.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.alert6.Icon = AntdUI.TType.Warn;
             this.alert6.Location = new System.Drawing.Point(255, 3);
             this.alert6.Name = "alert6";
@@ -173,7 +176,6 @@
             // alert7
             // 
             this.alert7.BorderWidth = 2F;
-            this.alert7.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.alert7.Icon = AntdUI.TType.Info;
             this.alert7.Location = new System.Drawing.Point(129, 3);
             this.alert7.Name = "alert7";
@@ -184,7 +186,6 @@
             // alert8
             // 
             this.alert8.BorderWidth = 2F;
-            this.alert8.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.alert8.Icon = AntdUI.TType.Success;
             this.alert8.Location = new System.Drawing.Point(3, 3);
             this.alert8.Name = "alert8";
@@ -192,30 +193,33 @@
             this.alert8.TabIndex = 0;
             this.alert8.Text = "Success Text";
             // 
-            // label4
+            // h2
             // 
-            this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label4.Location = new System.Drawing.Point(3, 77);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(744, 24);
-            this.label4.TabIndex = 40;
-            this.label4.Text = "提示边框";
+            this.h2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.h2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
+            this.h2.Location = new System.Drawing.Point(0, 62);
+            this.h2.Name = "h2";
+            this.h2.PrefixColour = AntdUI.Colour.Primary;
+            this.h2.PrefixSvg = global::AntdUIDemo.Properties.Resources.icon_divider;
+            this.h2.Size = new System.Drawing.Size(750, 24);
+            this.h2.TabIndex = 0;
+            this.h2.Text = "提示边框";
             // 
-            // flowPanel2
+            // p1
             // 
-            this.flowPanel2.Controls.Add(this.alert4);
-            this.flowPanel2.Controls.Add(this.alert3);
-            this.flowPanel2.Controls.Add(this.alert2);
-            this.flowPanel2.Controls.Add(this.alert1);
-            this.flowPanel2.Location = new System.Drawing.Point(3, 33);
-            this.flowPanel2.Name = "flowPanel2";
-            this.flowPanel2.Size = new System.Drawing.Size(744, 38);
-            this.flowPanel2.TabIndex = 39;
-            this.flowPanel2.Text = "flowPanel2";
+            this.p1.Controls.Add(this.alert4);
+            this.p1.Controls.Add(this.alert3);
+            this.p1.Controls.Add(this.alert2);
+            this.p1.Controls.Add(this.alert1);
+            this.p1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.p1.Location = new System.Drawing.Point(0, 24);
+            this.p1.Name = "p1";
+            this.p1.Size = new System.Drawing.Size(750, 38);
+            this.p1.TabIndex = 1;
+            this.p1.Text = "flowPanel2";
             // 
             // alert4
             // 
-            this.alert4.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.alert4.Icon = AntdUI.TType.Error;
             this.alert4.Location = new System.Drawing.Point(381, 3);
             this.alert4.Name = "alert4";
@@ -225,7 +229,6 @@
             // 
             // alert3
             // 
-            this.alert3.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.alert3.Icon = AntdUI.TType.Warn;
             this.alert3.Location = new System.Drawing.Point(255, 3);
             this.alert3.Name = "alert3";
@@ -235,7 +238,6 @@
             // 
             // alert2
             // 
-            this.alert2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.alert2.Icon = AntdUI.TType.Info;
             this.alert2.Location = new System.Drawing.Point(129, 3);
             this.alert2.Name = "alert2";
@@ -245,7 +247,6 @@
             // 
             // alert1
             // 
-            this.alert1.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.alert1.Icon = AntdUI.TType.Success;
             this.alert1.Location = new System.Drawing.Point(3, 3);
             this.alert1.Name = "alert1";
@@ -253,26 +254,28 @@
             this.alert1.TabIndex = 0;
             this.alert1.Text = "Success Text";
             // 
-            // label3
+            // h1
             // 
-            this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label3.Location = new System.Drawing.Point(3, 3);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(744, 24);
-            this.label3.TabIndex = 21;
-            this.label3.Text = "基本用法";
+            this.h1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.h1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
+            this.h1.Location = new System.Drawing.Point(0, 0);
+            this.h1.Name = "h1";
+            this.h1.PrefixColour = AntdUI.Colour.Primary;
+            this.h1.PrefixSvg = global::AntdUIDemo.Properties.Resources.icon_divider;
+            this.h1.Size = new System.Drawing.Size(750, 24);
+            this.h1.TabIndex = 0;
+            this.h1.Text = "基本用法";
             // 
             // AlertDemo
             // 
-            
-            this.Controls.Add(this.stackPanel1);
+            this.Controls.Add(this.panelMain);
             this.Controls.Add(this.header1);
             this.Name = "AlertDemo";
             this.Size = new System.Drawing.Size(750, 505);
-            this.stackPanel1.ResumeLayout(false);
-            this.flowPanel3.ResumeLayout(false);
-            this.flowPanel1.ResumeLayout(false);
-            this.flowPanel2.ResumeLayout(false);
+            this.panelMain.ResumeLayout(false);
+            this.p3.ResumeLayout(false);
+            this.p2.ResumeLayout(false);
+            this.p1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -280,23 +283,23 @@
         #endregion
 
         private AntdUI.PageHeader header1;
-        private AntdUI.StackPanel stackPanel1;
-        private AntdUI.Label label3;
-        private AntdUI.FlowPanel flowPanel2;
+        private AntdUI.In.Panel panelMain;
+        private AntdUI.Label h1;
+        private AntdUI.FlowPanel p1;
         private AntdUI.Alert alert1;
         private AntdUI.Alert alert4;
         private AntdUI.Alert alert3;
         private AntdUI.Alert alert2;
-        private AntdUI.FlowPanel flowPanel1;
+        private AntdUI.FlowPanel p2;
         private AntdUI.Alert alert5;
         private AntdUI.Alert alert6;
         private AntdUI.Alert alert7;
         private AntdUI.Alert alert8;
-        private AntdUI.Label label4;
-        private AntdUI.FlowPanel flowPanel3;
+        private AntdUI.Label h2;
+        private AntdUI.FlowPanel p3;
         private AntdUI.Alert alert12;
-        private AntdUI.Label label5;
-        private AntdUI.Label label6;
+        private AntdUI.Label h3;
+        private AntdUI.Label h4;
         private AntdUI.Alert alert9;
     }
 }

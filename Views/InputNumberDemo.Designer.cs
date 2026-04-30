@@ -1,4 +1,4 @@
-﻿namespace AntdUIDemo.Views
+namespace AntdUIDemo.Views
 {
     partial class InputNumberDemo
     {
@@ -30,23 +30,23 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InputNumberDemo));
             this.header1 = new AntdUI.PageHeader();
-            this.stackPanel1 = new AntdUI.StackPanel();
-            this.flowPanel3 = new AntdUI.FlowPanel();
+            this.panelMain = new AntdUI.In.Panel();
+            this.p3 = new AntdUI.FlowPanel();
             this.inputNumber8 = new AntdUI.InputNumber();
-            this.label5 = new AntdUI.Label();
-            this.flowPanel2 = new AntdUI.FlowPanel();
+            this.h3 = new AntdUI.Label();
+            this.p2 = new AntdUI.FlowPanel();
             this.inputNumber3 = new AntdUI.InputNumber();
             this.inputNumber2 = new AntdUI.InputNumber();
-            this.label4 = new AntdUI.Label();
-            this.flowPanel1 = new AntdUI.FlowPanel();
+            this.h2 = new AntdUI.Label();
+            this.p1 = new AntdUI.FlowPanel();
             this.inputNumber5 = new AntdUI.InputNumber();
             this.inputNumber4 = new AntdUI.InputNumber();
             this.inputNumber1 = new AntdUI.InputNumber();
-            this.label3 = new AntdUI.Label();
-            this.stackPanel1.SuspendLayout();
-            this.flowPanel3.SuspendLayout();
-            this.flowPanel2.SuspendLayout();
-            this.flowPanel1.SuspendLayout();
+            this.h1 = new AntdUI.Label();
+            this.panelMain.SuspendLayout();
+            this.p3.SuspendLayout();
+            this.p2.SuspendLayout();
+            this.p1.SuspendLayout();
             this.SuspendLayout();
             // 
             // header1
@@ -59,38 +59,36 @@
             this.header1.Name = "header1";
             this.header1.Padding = new System.Windows.Forms.Padding(0, 0, 0, 10);
             this.header1.Size = new System.Drawing.Size(750, 74);
-            this.header1.TabIndex = 27;
+            this.header1.TabIndex = 0;
             this.header1.Text = "InputNumber 数字输入框";
             this.header1.UseTitleFont = true;
             // 
-            // stackPanel1
+            // panelMain
             // 
-            this.stackPanel1.Controls.Add(this.flowPanel3);
-            this.stackPanel1.Controls.Add(this.label5);
-            this.stackPanel1.Controls.Add(this.flowPanel2);
-            this.stackPanel1.Controls.Add(this.label4);
-            this.stackPanel1.Controls.Add(this.flowPanel1);
-            this.stackPanel1.Controls.Add(this.label3);
-            this.stackPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.stackPanel1.Location = new System.Drawing.Point(0, 74);
-            this.stackPanel1.Name = "stackPanel1";
-            this.stackPanel1.Size = new System.Drawing.Size(750, 397);
-            this.stackPanel1.TabIndex = 0;
-            this.stackPanel1.Text = "stackPanel1";
-            this.stackPanel1.Vertical = true;
+            this.panelMain.Controls.Add(this.p3);
+            this.panelMain.Controls.Add(this.h3);
+            this.panelMain.Controls.Add(this.p2);
+            this.panelMain.Controls.Add(this.h2);
+            this.panelMain.Controls.Add(this.p1);
+            this.panelMain.Controls.Add(this.h1);
+            this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelMain.Location = new System.Drawing.Point(0, 74);
+            this.panelMain.Name = "panelMain";
+            this.panelMain.Size = new System.Drawing.Size(750, 397);
+            this.panelMain.TabIndex = 0;
             // 
-            // flowPanel3
+            // p3
             // 
-            this.flowPanel3.Controls.Add(this.inputNumber8);
-            this.flowPanel3.Location = new System.Drawing.Point(3, 181);
-            this.flowPanel3.Name = "flowPanel3";
-            this.flowPanel3.Size = new System.Drawing.Size(744, 38);
-            this.flowPanel3.TabIndex = 16;
-            this.flowPanel3.Text = "flowPanel3";
+            this.p3.Controls.Add(this.inputNumber8);
+            this.p3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.p3.Location = new System.Drawing.Point(0, 148);
+            this.p3.Name = "p3";
+            this.p3.Size = new System.Drawing.Size(750, 38);
+            this.p3.TabIndex = 3;
+            this.p3.Text = "flowPanel3";
             // 
             // inputNumber8
             // 
-            this.inputNumber8.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F);
             this.inputNumber8.Hexadecimal = true;
             this.inputNumber8.Location = new System.Drawing.Point(3, 3);
             this.inputNumber8.Minimum = new decimal(new int[] {
@@ -104,28 +102,31 @@
             this.inputNumber8.Text = "0";
             this.inputNumber8.WaveSize = 0;
             // 
-            // label5
+            // h3
             // 
-            this.label5.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label5.Location = new System.Drawing.Point(3, 151);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(744, 24);
-            this.label5.TabIndex = 15;
-            this.label5.Text = "十六进制显示";
+            this.h3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.h3.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
+            this.h3.Location = new System.Drawing.Point(0, 124);
+            this.h3.Name = "h3";
+            this.h3.PrefixColour = AntdUI.Colour.Primary;
+            this.h3.PrefixSvg = global::AntdUIDemo.Properties.Resources.icon_divider;
+            this.h3.Size = new System.Drawing.Size(750, 24);
+            this.h3.TabIndex = 0;
+            this.h3.Text = "十六进制显示";
             // 
-            // flowPanel2
+            // p2
             // 
-            this.flowPanel2.Controls.Add(this.inputNumber3);
-            this.flowPanel2.Controls.Add(this.inputNumber2);
-            this.flowPanel2.Location = new System.Drawing.Point(3, 107);
-            this.flowPanel2.Name = "flowPanel2";
-            this.flowPanel2.Size = new System.Drawing.Size(744, 38);
-            this.flowPanel2.TabIndex = 14;
-            this.flowPanel2.Text = "flowPanel2";
+            this.p2.Controls.Add(this.inputNumber3);
+            this.p2.Controls.Add(this.inputNumber2);
+            this.p2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.p2.Location = new System.Drawing.Point(0, 86);
+            this.p2.Name = "p2";
+            this.p2.Size = new System.Drawing.Size(750, 38);
+            this.p2.TabIndex = 2;
+            this.p2.Text = "flowPanel2";
             // 
             // inputNumber3
             // 
-            this.inputNumber3.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F);
             this.inputNumber3.Location = new System.Drawing.Point(209, 3);
             this.inputNumber3.Name = "inputNumber3";
             this.inputNumber3.PlaceholderText = "图标";
@@ -138,7 +139,6 @@
             // 
             // inputNumber2
             // 
-            this.inputNumber2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F);
             this.inputNumber2.Location = new System.Drawing.Point(3, 3);
             this.inputNumber2.Maximum = new decimal(new int[] {
             100,
@@ -159,29 +159,32 @@
             this.inputNumber2.Text = "0";
             this.inputNumber2.WaveSize = 0;
             // 
-            // label4
+            // h2
             // 
-            this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label4.Location = new System.Drawing.Point(3, 77);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(744, 24);
-            this.label4.TabIndex = 13;
-            this.label4.Text = "前/后标签";
+            this.h2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.h2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
+            this.h2.Location = new System.Drawing.Point(0, 62);
+            this.h2.Name = "h2";
+            this.h2.PrefixColour = AntdUI.Colour.Primary;
+            this.h2.PrefixSvg = global::AntdUIDemo.Properties.Resources.icon_divider;
+            this.h2.Size = new System.Drawing.Size(750, 24);
+            this.h2.TabIndex = 0;
+            this.h2.Text = "前/后标签";
             // 
-            // flowPanel1
+            // p1
             // 
-            this.flowPanel1.Controls.Add(this.inputNumber5);
-            this.flowPanel1.Controls.Add(this.inputNumber4);
-            this.flowPanel1.Controls.Add(this.inputNumber1);
-            this.flowPanel1.Location = new System.Drawing.Point(3, 33);
-            this.flowPanel1.Name = "flowPanel1";
-            this.flowPanel1.Size = new System.Drawing.Size(744, 38);
-            this.flowPanel1.TabIndex = 12;
-            this.flowPanel1.Text = "flowPanel1";
+            this.p1.Controls.Add(this.inputNumber5);
+            this.p1.Controls.Add(this.inputNumber4);
+            this.p1.Controls.Add(this.inputNumber1);
+            this.p1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.p1.Location = new System.Drawing.Point(0, 24);
+            this.p1.Name = "p1";
+            this.p1.Size = new System.Drawing.Size(750, 38);
+            this.p1.TabIndex = 1;
+            this.p1.Text = "flowPanel1";
             // 
             // inputNumber5
             // 
-            this.inputNumber5.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F);
             this.inputNumber5.Increment = new decimal(new int[] {
             1000,
             0,
@@ -214,7 +217,6 @@
             // inputNumber4
             // 
             this.inputNumber4.DecimalPlaces = 1;
-            this.inputNumber4.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F);
             this.inputNumber4.Increment = new decimal(new int[] {
             1,
             0,
@@ -236,7 +238,6 @@
             // 
             // inputNumber1
             // 
-            this.inputNumber1.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F);
             this.inputNumber1.Location = new System.Drawing.Point(3, 3);
             this.inputNumber1.Maximum = new decimal(new int[] {
             10,
@@ -254,25 +255,28 @@
             this.inputNumber1.Text = "0";
             this.inputNumber1.WaveSize = 0;
             // 
-            // label3
+            // h1
             // 
-            this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label3.Location = new System.Drawing.Point(3, 3);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(744, 24);
-            this.label3.TabIndex = 11;
-            this.label3.Text = "基本类型";
+            this.h1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.h1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
+            this.h1.Location = new System.Drawing.Point(0, 0);
+            this.h1.Name = "h1";
+            this.h1.PrefixColour = AntdUI.Colour.Primary;
+            this.h1.PrefixSvg = global::AntdUIDemo.Properties.Resources.icon_divider;
+            this.h1.Size = new System.Drawing.Size(750, 24);
+            this.h1.TabIndex = 0;
+            this.h1.Text = "基本类型";
             // 
             // InputNumberDemo
             // 
-            this.Controls.Add(this.stackPanel1);
+            this.Controls.Add(this.panelMain);
             this.Controls.Add(this.header1);
             this.Name = "InputNumberDemo";
             this.Size = new System.Drawing.Size(750, 471);
-            this.stackPanel1.ResumeLayout(false);
-            this.flowPanel3.ResumeLayout(false);
-            this.flowPanel2.ResumeLayout(false);
-            this.flowPanel1.ResumeLayout(false);
+            this.panelMain.ResumeLayout(false);
+            this.p3.ResumeLayout(false);
+            this.p2.ResumeLayout(false);
+            this.p1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -280,18 +284,18 @@
         #endregion
 
         private AntdUI.PageHeader header1;
-        private AntdUI.StackPanel stackPanel1;
-        private AntdUI.FlowPanel flowPanel1;
-        private AntdUI.Label label3;
+        private AntdUI.In.Panel panelMain;
+        private AntdUI.FlowPanel p1;
+        private AntdUI.Label h1;
         private AntdUI.InputNumber inputNumber1;
-        private AntdUI.FlowPanel flowPanel2;
+        private AntdUI.FlowPanel p2;
         private AntdUI.InputNumber inputNumber2;
-        private AntdUI.Label label4;
+        private AntdUI.Label h2;
         private AntdUI.InputNumber inputNumber3;
         private AntdUI.InputNumber inputNumber4;
         private AntdUI.InputNumber inputNumber5;
-        private AntdUI.Label label5;
-        private AntdUI.FlowPanel flowPanel3;
+        private AntdUI.Label h3;
+        private AntdUI.FlowPanel p3;
         private AntdUI.InputNumber inputNumber8;
     }
 }

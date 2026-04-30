@@ -1,4 +1,4 @@
-﻿using AntdUI;
+using AntdUI;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
@@ -38,7 +38,7 @@ namespace AntdUIDemo.Views
                     Text = $"Button{i}",
                     Type = TTypeMini.Primary,
                     WaveSize = 0,
-                    Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, ((byte)(134))),
+                    Font = new Font("Microsoft YaHei UI", 10F),
                 };
                 stackPanel.Controls.Add(control);
                 control.BringToFront();
@@ -123,7 +123,7 @@ namespace AntdUIDemo.Views
                 Text = $"Button{stackPanel.Controls.Count + 1}",
                 Type = TTypeMini.Primary,
                 WaveSize = 0,
-                Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, ((byte)(134))),
+                Font = new Font("Microsoft YaHei UI", 10F),
             };
             stackPanel.Controls.Add(control);
             control.BringToFront();

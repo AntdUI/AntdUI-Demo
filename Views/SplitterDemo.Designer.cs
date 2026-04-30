@@ -1,4 +1,4 @@
-﻿namespace AntdUIDemo.Views
+namespace AntdUIDemo.Views
 {
     partial class SplitterDemo
     {
@@ -48,15 +48,14 @@
             this.header1.Name = "header1";
             this.header1.Padding = new System.Windows.Forms.Padding(0, 0, 0, 10);
             this.header1.Size = new System.Drawing.Size(750, 74);
-            this.header1.TabIndex = 28;
+            this.header1.TabIndex = 0;
             this.header1.Text = "Splitter 分隔面板";
             this.header1.UseTitleFont = true;
             // 
             // splitter
             // 
             this.splitter.CollapsePanel = AntdUI.Splitter.ADCollapsePanel.Panel1;
-            this.splitter.Cursor = System.Windows.Forms.Cursors.Default;
-            this.splitter.Dock = System.Windows.Forms.DockStyle.Top;
+            this.splitter.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitter.Location = new System.Drawing.Point(0, 74);
             this.splitter.Name = "splitter";
             // 
@@ -68,16 +67,15 @@
             // splitter.Panel2
             // 
             this.splitter.Panel2.Controls.Add(this.button4);
-            this.splitter.Size = new System.Drawing.Size(750, 209);
+            this.splitter.Size = new System.Drawing.Size(750, 457);
             this.splitter.SplitterDistance = 262;
             this.splitter.SplitterSize = 30;
             this.splitter.SplitterWidth = 10;
-            this.splitter.TabIndex = 32;
+            this.splitter.TabIndex = 1;
             // 
             // button3
             // 
             this.button3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button3.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button3.Location = new System.Drawing.Point(0, 0);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(262, 45);
@@ -88,7 +86,6 @@
             // button4
             // 
             this.button4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button4.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button4.Location = new System.Drawing.Point(0, 0);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(478, 45);

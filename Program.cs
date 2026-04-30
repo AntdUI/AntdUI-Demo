@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Windows.Forms;
 
 namespace AntdUIDemo
@@ -19,6 +19,8 @@ namespace AntdUIDemo
             //若文字不清晰，切换其他渲染方式
             AntdUI.Config.TextRenderingHint = System.Drawing.Text.TextRenderingHint.AntiAliasGridFit;
             AntdUI.Config.TextRenderingHighQuality = true;
+            AntdUI.Config.Theme().Dark("#000", "#fff").Light("#fff", "#000").FormBorderColor();
+            AntdUI.SvgDb.Emoji = AntdUI.FluentFlat.Emoji;
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

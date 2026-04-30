@@ -1,4 +1,4 @@
-﻿using AntdUI;
+using AntdUI;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
@@ -87,7 +87,6 @@ namespace AntdUIDemo.Views
             input_my.Value = 24;
             input_gap.Value = 40;
             input_radius.Value = 6;
-            input_badge.Text = "";
             input_badgesize.Value = 0.6m;
             colorPicker.Value = Color.FromArgb(22, 119, 255);
         }
@@ -152,9 +151,7 @@ namespace AntdUIDemo.Views
                 // 浮动全局配置
                 {
                     //字体
-                    Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point),
-                    //附着控件
-                    Control = null,
+                    Font = new Font("Microsoft YaHei UI", 10F, FontStyle.Regular, GraphicsUnit.Point),
                     //位置
                     Align = (TAlign)select_align.SelectedIndex,
                     //是否垂直方向

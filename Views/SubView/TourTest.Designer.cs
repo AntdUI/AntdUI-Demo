@@ -1,4 +1,4 @@
-﻿namespace AntdUIDemo.Views.SubView
+namespace AntdUIDemo.Views.SubView
 {
     partial class TourTest
     {
@@ -40,7 +40,7 @@
             // label1
             // 
             this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Font = new System.Drawing.Font("微软雅黑", 9F);
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(220, 36);
@@ -62,7 +62,7 @@
             // 
             this.button_previous.BorderWidth = 1F;
             this.button_previous.Dock = System.Windows.Forms.DockStyle.Right;
-            this.button_previous.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button_previous.Font = new System.Drawing.Font("微软雅黑", 9F);
             this.button_previous.Location = new System.Drawing.Point(70, 0);
             this.button_previous.Name = "button_previous";
             this.button_previous.Size = new System.Drawing.Size(75, 40);
@@ -73,7 +73,7 @@
             // 
             this.button_next.BorderWidth = 1F;
             this.button_next.Dock = System.Windows.Forms.DockStyle.Right;
-            this.button_next.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button_next.Font = new System.Drawing.Font("微软雅黑", 9F);
             this.button_next.Location = new System.Drawing.Point(145, 0);
             this.button_next.Name = "button_next";
             this.button_next.Size = new System.Drawing.Size(75, 40);
@@ -84,7 +84,7 @@
             // label2
             // 
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label2.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.Font = new System.Drawing.Font("微软雅黑", 9F);
             this.label2.Location = new System.Drawing.Point(0, 36);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(220, 74);
@@ -93,7 +93,7 @@
             // label3
             // 
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label3.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label3.Font = new System.Drawing.Font("微软雅黑", 9F);
             this.label3.Location = new System.Drawing.Point(0, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(70, 40);

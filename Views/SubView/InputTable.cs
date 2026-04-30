@@ -1,4 +1,4 @@
-﻿using AntdUI;
+using AntdUI;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -103,8 +103,8 @@ namespace AntdUIDemo
             {
                 Columns = Columns,
                 Size = new Size(txtSearch.Width, 300),
-                Font = new Font("Microsoft YaHei UI", 9f)
-
+                Font = new Font("Microsoft YaHei UI", 9f),
+                AutoSizeColumnsMode = ColumnsMode.Fill
             };
             _table.CellDoubleClick += Table_CellDoubleClick;
         }

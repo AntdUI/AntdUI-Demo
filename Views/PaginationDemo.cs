@@ -1,4 +1,4 @@
-﻿using AntdUI;
+using AntdUI;
 using System;
 using System.Windows.Forms;
 
@@ -79,9 +79,9 @@ namespace AntdUIDemo.Views
 
         private void LoadPagination()
         {
-            if (this.InvokeRequired)
+            if (InvokeRequired)
             {
-                this.Invoke(new Action(LoadPagination));
+                Invoke(new Action(LoadPagination));
                 return;
             }
             pagination.Current = (int)input_current.Value;

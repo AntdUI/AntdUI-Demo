@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Windows.Forms;
 
 namespace AntdUIDemo.Views
@@ -18,7 +18,7 @@ namespace AntdUIDemo.Views
 
         private void button_close_Click(object sender, EventArgs e)
         {
-            this.Dispose();
+            Dispose();
         }
     }
 }

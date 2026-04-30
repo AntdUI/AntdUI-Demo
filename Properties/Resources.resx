@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -132,6 +132,9 @@
   </data>
   <data name="head2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\head2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_divider" xml:space="preserve">
+    <value>&lt;svg viewBox="0 0 1024 1024"&gt;&lt;path d="M231.496369 0m36.57592 0l146.280814 0q36.57592 0 36.57592 36.57592l0 950.84816q0 36.57592-36.57592 36.57592l-146.280814 0q-36.57592 0-36.57592-36.57592l0-950.84816q0-36.57592 36.57592-36.57592Z"&gt;&lt;/path&gt;&lt;/svg&gt;</value>
   </data>
   <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\assets\logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

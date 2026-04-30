@@ -1,14 +1,14 @@
-﻿<div align="center">
+<div align="center">
 
 <img height="100" src="assets/logo.png">
 
 <h1>AntdUI Demo</h1>
 
-This project is developed based on `Winform .NET Framework 4.8`, and is a demo project of [AntdUI](https://gitee.com/antdui/AntdUI), the current version is `2.1.0`
+This project is developed based on `Winform .NET Framework 4.8`, and is a demo project of [AntdUI](https://github.com/AntdUI/AntdUI), the current version is `2.3.12`
 
 </div>
 
-English | <a href="README.md">中文</a>
+English | <a href="README-zh.md">中文</a>
 
 ## ✅ Quick Start
 

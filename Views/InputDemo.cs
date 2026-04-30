@@ -1,4 +1,4 @@
-﻿using AntdUI;
+using AntdUI;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -68,7 +68,7 @@ namespace AntdUIDemo.Views
 
 
         #region Input+Popover+Table 
-        
+
         Form form;
         /// <summary>
         /// 小蚂蚁QQ:897252348
@@ -103,7 +103,7 @@ namespace AntdUIDemo.Views
                 }
             };
             customerInput.Size = new Size(300, 50);
-            customerInput.Location = new Point(label1.Location.X, label1.Location.Y+20);
+            customerInput.Location = new Point(h11.Location.X, h11.Location.Y + 20);
             panel2.Controls.Add(customerInput);
         }
 

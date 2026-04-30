@@ -1,4 +1,4 @@
-﻿namespace AntdUIDemo.Views
+namespace AntdUIDemo.Views
 {
     partial class TimelineDemo
     {
@@ -35,29 +35,14 @@
             AntdUI.TimelineItem timelineItem5 = new AntdUI.TimelineItem();
             AntdUI.TimelineItem timelineItem6 = new AntdUI.TimelineItem();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TimelineDemo));
-            this.stackPanel1 = new AntdUI.StackPanel();
             this.timeline1 = new AntdUI.Timeline();
-            this.label3 = new AntdUI.Label();
+            this.h1 = new AntdUI.Label();
             this.header1 = new AntdUI.PageHeader();
-            this.stackPanel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // stackPanel1
-            // 
-            this.stackPanel1.Controls.Add(this.timeline1);
-            this.stackPanel1.Controls.Add(this.label3);
-            this.stackPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.stackPanel1.Location = new System.Drawing.Point(0, 74);
-            this.stackPanel1.Name = "stackPanel1";
-            this.stackPanel1.Size = new System.Drawing.Size(750, 435);
-            this.stackPanel1.TabIndex = 0;
-            this.stackPanel1.Text = "stackPanel1";
-            this.stackPanel1.Vertical = true;
             // 
             // timeline1
             // 
-            this.timeline1.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.timeline1.FontDescription = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.timeline1.Dock = System.Windows.Forms.DockStyle.Fill;
             timelineItem1.Description = "这是一段描述";
             timelineItem1.Text = "Create a services site 2015-09-01";
             timelineItem1.Type = AntdUI.TTypeMini.Success;
@@ -81,20 +66,22 @@
             this.timeline1.Items.Add(timelineItem4);
             this.timeline1.Items.Add(timelineItem5);
             this.timeline1.Items.Add(timelineItem6);
-            this.timeline1.Location = new System.Drawing.Point(3, 33);
+            this.timeline1.Location = new System.Drawing.Point(0, 98);
             this.timeline1.Name = "timeline1";
-            this.timeline1.Size = new System.Drawing.Size(744, 379);
-            this.timeline1.TabIndex = 32;
-            this.timeline1.Text = "timeline1";
+            this.timeline1.Size = new System.Drawing.Size(750, 411);
+            this.timeline1.TabIndex = 1;
             // 
-            // label3
+            // h1
             // 
-            this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label3.Location = new System.Drawing.Point(3, 3);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(744, 24);
-            this.label3.TabIndex = 31;
-            this.label3.Text = "基本用法";
+            this.h1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.h1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
+            this.h1.Location = new System.Drawing.Point(0, 74);
+            this.h1.Name = "h1";
+            this.h1.PrefixColour = AntdUI.Colour.Primary;
+            this.h1.PrefixSvg = global::AntdUIDemo.Properties.Resources.icon_divider;
+            this.h1.Size = new System.Drawing.Size(750, 24);
+            this.h1.TabIndex = 0;
+            this.h1.Text = "基本用法";
             // 
             // header1
             // 
@@ -106,25 +93,24 @@
             this.header1.Name = "header1";
             this.header1.Padding = new System.Windows.Forms.Padding(0, 0, 0, 10);
             this.header1.Size = new System.Drawing.Size(750, 74);
-            this.header1.TabIndex = 27;
+            this.header1.TabIndex = 0;
             this.header1.Text = "Timeline 时间轴";
             this.header1.UseTitleFont = true;
             // 
             // TimelineDemo
             // 
-            this.Controls.Add(this.stackPanel1);
+            this.Controls.Add(this.timeline1);
+            this.Controls.Add(this.h1);
             this.Controls.Add(this.header1);
             this.Name = "TimelineDemo";
             this.Size = new System.Drawing.Size(750, 509);
-            this.stackPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private AntdUI.StackPanel stackPanel1;
-        private AntdUI.Label label3;
+        private AntdUI.Label h1;
         private AntdUI.Timeline timeline1;
         private AntdUI.PageHeader header1;
     }

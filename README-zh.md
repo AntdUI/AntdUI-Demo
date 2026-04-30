@@ -4,11 +4,11 @@
 
 <h1>AntdUI Demo</h1>
 
-本项目基于 `Winform .NET Framework 4.8` 开发，是 [AntdUI](https://gitee.com/antdui/AntdUI) 的 Demo 项目，当前版本 `2.1.0`
+本项目基于 `Winform .NET Framework 4.8` 开发，是 [AntdUI](https://gitee.com/AntdUI/AntdUI) 的 Demo 项目，当前版本 `2.3.12`
 
 </div>
 
-中文 | <a href="README-en.md">English</a>
+中文 | <a href="README.md">English</a>
 
 ## ✅ 快速开始
 

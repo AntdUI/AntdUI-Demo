@@ -19,7 +19,7 @@ namespace AntdUIDemo.Properties {
     // 类通过类似于 ResGen 或 Visual Studio 的工具自动生成的。
     // 若要添加或移除成员，请编辑 .ResX 文件，然后重新运行 ResGen
     // (以 /str 作为命令选项)，或重新生成 VS 项目。
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "18.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -107,6 +107,15 @@ namespace AntdUIDemo.Properties {
             get {
                 object obj = ResourceManager.GetObject("head2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 &lt;svg viewBox=&quot;0 0 1024 1024&quot;&gt;&lt;path d=&quot;M231.496369 0m36.57592 0l146.280814 0q36.57592 0 36.57592 36.57592l0 950.84816q0 36.57592-36.57592 36.57592l-146.280814 0q-36.57592 0-36.57592-36.57592l0-950.84816q0-36.57592 36.57592-36.57592Z&quot;&gt;&lt;/path&gt;&lt;/svg&gt; 的本地化字符串。
+        /// </summary>
+        internal static string icon_divider {
+            get {
+                return ResourceManager.GetString("icon_divider", resourceCulture);
             }
         }
         

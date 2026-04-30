@@ -1,4 +1,4 @@
-﻿using AntdUI;
+using AntdUI;
 using AntdUIDemo.Controls;
 using System;
 using System.Drawing;

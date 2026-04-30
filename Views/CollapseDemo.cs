@@ -1,4 +1,3 @@
-﻿using System;
 using System.Windows.Forms;
 
 namespace AntdUIDemo.Views
@@ -22,7 +21,7 @@ namespace AntdUIDemo.Views
         {
             //关闭和打开都会触发
             string str = e.Expand ? "open" : "close";
-            AntdUI.Notification.info(window, str, e.Value.ToString(),autoClose:3);
+            AntdUI.Notification.info(window, str, e.Value.ToString(), autoClose: 3);
         }
     }
 }

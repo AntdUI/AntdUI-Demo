@@ -1,4 +1,4 @@
-﻿namespace AntdUIDemo.Views
+namespace AntdUIDemo.Views
 {
     partial class Demo
     {
@@ -48,7 +48,6 @@
             // 
             // button_close
             // 
-            this.button_close.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F);
             this.button_close.Location = new System.Drawing.Point(9, 44);
             this.button_close.Name = "button_close";
             this.button_close.Size = new System.Drawing.Size(75, 40);
@@ -59,7 +58,6 @@
             // pageHeader
             // 
             this.pageHeader.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pageHeader.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F);
             this.pageHeader.Location = new System.Drawing.Point(6, 6);
             this.pageHeader.MaximizeBox = false;
             this.pageHeader.MinimizeBox = false;

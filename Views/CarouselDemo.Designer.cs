@@ -1,4 +1,4 @@
-﻿namespace AntdUIDemo.Views
+namespace AntdUIDemo.Views
 {
     partial class CarouselDemo
     {
@@ -38,15 +38,15 @@
             AntdUI.CarouselItem carouselItem8 = new AntdUI.CarouselItem();
             AntdUI.CarouselItem carouselItem9 = new AntdUI.CarouselItem();
             this.header1 = new AntdUI.PageHeader();
-            this.stackPanel1 = new AntdUI.StackPanel();
+            this.panelMain = new AntdUI.In.Panel();
             this.flowPanel2 = new AntdUI.FlowPanel();
             this.carousel3 = new AntdUI.Carousel();
-            this.label4 = new AntdUI.Label();
+            this.h2 = new AntdUI.Label();
             this.flowPanel1 = new AntdUI.FlowPanel();
             this.carousel2 = new AntdUI.Carousel();
             this.carousel1 = new AntdUI.Carousel();
-            this.label3 = new AntdUI.Label();
-            this.stackPanel1.SuspendLayout();
+            this.h1 = new AntdUI.Label();
+            this.panelMain.SuspendLayout();
             this.flowPanel2.SuspendLayout();
             this.flowPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -61,32 +61,30 @@
             this.header1.Name = "header1";
             this.header1.Padding = new System.Windows.Forms.Padding(0, 0, 0, 10);
             this.header1.Size = new System.Drawing.Size(750, 74);
-            this.header1.TabIndex = 27;
+            this.header1.TabIndex = 0;
             this.header1.Text = "Carousel 走马灯";
             this.header1.UseTitleFont = true;
             // 
-            // stackPanel1
+            // panelMain
             // 
-            this.stackPanel1.Controls.Add(this.flowPanel2);
-            this.stackPanel1.Controls.Add(this.label4);
-            this.stackPanel1.Controls.Add(this.flowPanel1);
-            this.stackPanel1.Controls.Add(this.label3);
-            this.stackPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.stackPanel1.Location = new System.Drawing.Point(0, 74);
-            this.stackPanel1.Name = "stackPanel1";
-            this.stackPanel1.Size = new System.Drawing.Size(750, 425);
-            this.stackPanel1.TabIndex = 0;
-            this.stackPanel1.Text = "stackPanel1";
-            this.stackPanel1.Vertical = true;
+            this.panelMain.Controls.Add(this.flowPanel2);
+            this.panelMain.Controls.Add(this.h2);
+            this.panelMain.Controls.Add(this.flowPanel1);
+            this.panelMain.Controls.Add(this.h1);
+            this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelMain.Location = new System.Drawing.Point(0, 74);
+            this.panelMain.Name = "panelMain";
+            this.panelMain.Size = new System.Drawing.Size(750, 425);
+            this.panelMain.TabIndex = 0;
             // 
             // flowPanel2
             // 
             this.flowPanel2.Controls.Add(this.carousel3);
-            this.flowPanel2.Location = new System.Drawing.Point(3, 237);
+            this.flowPanel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.flowPanel2.Location = new System.Drawing.Point(0, 216);
             this.flowPanel2.Name = "flowPanel2";
-            this.flowPanel2.Size = new System.Drawing.Size(744, 168);
-            this.flowPanel2.TabIndex = 29;
-            this.flowPanel2.Text = "flowPanel2";
+            this.flowPanel2.Size = new System.Drawing.Size(750, 168);
+            this.flowPanel2.TabIndex = 2;
             // 
             // carousel3
             // 
@@ -101,35 +99,37 @@
             this.carousel3.Location = new System.Drawing.Point(3, 3);
             this.carousel3.Name = "carousel3";
             this.carousel3.Radius = 12;
-            this.carousel3.SelectIndex = 1;
+            this.carousel3.SelectIndex = 2;
             this.carousel3.Size = new System.Drawing.Size(320, 162);
-            this.carousel3.TabIndex = 1;
-            this.carousel3.Text = "carousel3";
+            this.carousel3.TabIndex = 0;
             // 
-            // label4
+            // h2
             // 
-            this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label4.Location = new System.Drawing.Point(3, 207);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(744, 24);
-            this.label4.TabIndex = 28;
-            this.label4.Text = "自动轮播";
+            this.h2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.h2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
+            this.h2.Location = new System.Drawing.Point(0, 192);
+            this.h2.Name = "h2";
+            this.h2.PrefixColour = AntdUI.Colour.Primary;
+            this.h2.PrefixSvg = global::AntdUIDemo.Properties.Resources.icon_divider;
+            this.h2.Size = new System.Drawing.Size(750, 24);
+            this.h2.TabIndex = 0;
+            this.h2.Text = "自动轮播";
             // 
             // flowPanel1
             // 
             this.flowPanel1.Controls.Add(this.carousel2);
             this.flowPanel1.Controls.Add(this.carousel1);
-            this.flowPanel1.Location = new System.Drawing.Point(3, 33);
+            this.flowPanel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.flowPanel1.Location = new System.Drawing.Point(0, 24);
             this.flowPanel1.Name = "flowPanel1";
-            this.flowPanel1.Size = new System.Drawing.Size(744, 168);
-            this.flowPanel1.TabIndex = 27;
-            this.flowPanel1.Text = "flowPanel1";
+            this.flowPanel1.Size = new System.Drawing.Size(750, 168);
+            this.flowPanel1.TabIndex = 1;
             // 
             // carousel2
             // 
             this.carousel2.DotMargin = 24;
             this.carousel2.DotPosition = AntdUI.TAlignMini.Right;
-            this.carousel2.DotSize = new System.Drawing.Size(60, 8);
+            this.carousel2.DotSize = new System.Drawing.Size(40, 8);
             carouselItem4.Img = global::AntdUIDemo.Properties.Resources.bg1;
             carouselItem5.Img = global::AntdUIDemo.Properties.Resources.bg2;
             carouselItem6.Img = global::AntdUIDemo.Properties.Resources.bg3;
@@ -140,7 +140,6 @@
             this.carousel2.Name = "carousel2";
             this.carousel2.Size = new System.Drawing.Size(320, 162);
             this.carousel2.TabIndex = 1;
-            this.carousel2.Text = "carousel2";
             // 
             // carousel1
             // 
@@ -155,24 +154,26 @@
             this.carousel1.Name = "carousel1";
             this.carousel1.Size = new System.Drawing.Size(320, 162);
             this.carousel1.TabIndex = 0;
-            this.carousel1.Text = "carousel1";
             // 
-            // label3
+            // h1
             // 
-            this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label3.Location = new System.Drawing.Point(3, 3);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(744, 24);
-            this.label3.TabIndex = 26;
-            this.label3.Text = "基本用法";
+            this.h1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.h1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
+            this.h1.Location = new System.Drawing.Point(0, 0);
+            this.h1.Name = "h1";
+            this.h1.PrefixColour = AntdUI.Colour.Primary;
+            this.h1.PrefixSvg = global::AntdUIDemo.Properties.Resources.icon_divider;
+            this.h1.Size = new System.Drawing.Size(750, 24);
+            this.h1.TabIndex = 0;
+            this.h1.Text = "基本用法";
             // 
             // CarouselDemo
             // 
-            this.Controls.Add(this.stackPanel1);
+            this.Controls.Add(this.panelMain);
             this.Controls.Add(this.header1);
             this.Name = "CarouselDemo";
             this.Size = new System.Drawing.Size(750, 499);
-            this.stackPanel1.ResumeLayout(false);
+            this.panelMain.ResumeLayout(false);
             this.flowPanel2.ResumeLayout(false);
             this.flowPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -182,13 +183,13 @@
         #endregion
 
         private AntdUI.PageHeader header1;
-        private AntdUI.StackPanel stackPanel1;
-        private AntdUI.Label label3;
+        private AntdUI.In.Panel panelMain;
+        private AntdUI.Label h1;
         private AntdUI.FlowPanel flowPanel1;
         private AntdUI.Carousel carousel1;
         private AntdUI.FlowPanel flowPanel2;
         private AntdUI.Carousel carousel3;
-        private AntdUI.Label label4;
+        private AntdUI.Label h2;
         private AntdUI.Carousel carousel2;
     }
 }

@@ -1,4 +1,4 @@
-﻿using System.Drawing;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace AntdUIDemo.Views
@@ -15,7 +15,7 @@ namespace AntdUIDemo.Views
         {
             AntdUI.TooltipComponent tooltip = new AntdUI.TooltipComponent()
             {
-                Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, ((byte)(134))),
+                Font = new Font("Microsoft YaHei UI", 10F),
             };
             tooltip.SetTip(label_show, "prompt text");
 
@@ -23,7 +23,7 @@ namespace AntdUIDemo.Views
             {
                 AntdUI.Tooltip.open(new AntdUI.Tooltip.Config(label_showclick, "prompt text")
                 {
-                    Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, ((byte)(134))),
+                    Font = new Font("Microsoft YaHei UI", 10F),
                 });
             };
             BindButtonWithToolTip(this);
@@ -37,7 +37,7 @@ namespace AntdUIDemo.Views
                 {
                     AntdUI.TooltipComponent tooltip = new AntdUI.TooltipComponent()
                     {
-                        Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, ((byte)(134))),
+                        Font = new Font("Microsoft YaHei UI", 10F),
                     };
                     var text = button.Text;
                     switch (text)

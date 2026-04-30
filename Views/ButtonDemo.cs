@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
@@ -7,10 +7,7 @@ namespace AntdUIDemo.Views
 {
     public partial class ButtonDemo : UserControl
     {
-        private AntdUI.TooltipComponent tooltipComponent = new AntdUI.TooltipComponent()
-        {
-            Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, ((byte)(134))),
-        };
+        private AntdUI.TooltipComponent tooltipComponent = new AntdUI.TooltipComponent();
         public ButtonDemo()
         {
             InitializeComponent();
@@ -35,7 +32,7 @@ namespace AntdUIDemo.Views
             }
             else
             {
-                button_animate.AnimationBlinkTransition(500,10, AntdUI.AnimationType.Ease,  Color.FromArgb(255, 0, 0), Color.FromArgb(0, 255, 0), Color.FromArgb(0, 0, 255));
+                button_animate.AnimationBlinkTransition(500, 10, AntdUI.AnimationType.Ease, Color.FromArgb(255, 0, 0), Color.FromArgb(0, 255, 0), Color.FromArgb(0, 0, 255));
             }
 
         }

@@ -1,4 +1,4 @@
-﻿namespace AntdUIDemo.Views
+namespace AntdUIDemo.Views
 {
     partial class BreadcrumbDemo
     {
@@ -28,20 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            AntdUI.BreadcrumbItem breadcrumbItem8 = new AntdUI.BreadcrumbItem();
-            AntdUI.BreadcrumbItem breadcrumbItem9 = new AntdUI.BreadcrumbItem();
-            AntdUI.BreadcrumbItem breadcrumbItem10 = new AntdUI.BreadcrumbItem();
-            AntdUI.BreadcrumbItem breadcrumbItem11 = new AntdUI.BreadcrumbItem();
-            AntdUI.BreadcrumbItem breadcrumbItem12 = new AntdUI.BreadcrumbItem();
-            AntdUI.BreadcrumbItem breadcrumbItem13 = new AntdUI.BreadcrumbItem();
-            AntdUI.BreadcrumbItem breadcrumbItem14 = new AntdUI.BreadcrumbItem();
+            AntdUI.BreadcrumbItem breadcrumbItem1 = new AntdUI.BreadcrumbItem();
+            AntdUI.BreadcrumbItem breadcrumbItem2 = new AntdUI.BreadcrumbItem();
+            AntdUI.BreadcrumbItem breadcrumbItem3 = new AntdUI.BreadcrumbItem();
+            AntdUI.BreadcrumbItem breadcrumbItem4 = new AntdUI.BreadcrumbItem();
+            AntdUI.BreadcrumbItem breadcrumbItem5 = new AntdUI.BreadcrumbItem();
+            AntdUI.BreadcrumbItem breadcrumbItem6 = new AntdUI.BreadcrumbItem();
+            AntdUI.BreadcrumbItem breadcrumbItem7 = new AntdUI.BreadcrumbItem();
             this.header1 = new AntdUI.PageHeader();
-            this.stackPanel1 = new AntdUI.StackPanel();
+            this.panelMain = new AntdUI.In.Panel();
             this.breadcrumb2 = new AntdUI.Breadcrumb();
-            this.label3 = new AntdUI.Label();
+            this.h2 = new AntdUI.Label();
             this.breadcrumb1 = new AntdUI.Breadcrumb();
-            this.label4 = new AntdUI.Label();
-            this.stackPanel1.SuspendLayout();
+            this.h1 = new AntdUI.Label();
+            this.panelMain.SuspendLayout();
             this.SuspendLayout();
             // 
             // header1
@@ -54,84 +54,84 @@
             this.header1.Name = "header1";
             this.header1.Padding = new System.Windows.Forms.Padding(0, 0, 0, 10);
             this.header1.Size = new System.Drawing.Size(750, 74);
-            this.header1.TabIndex = 25;
+            this.header1.TabIndex = 0;
             this.header1.Text = "Breadcrumb 面包屑";
             this.header1.UseTitleFont = true;
             // 
-            // stackPanel1
+            // panelMain
             // 
-            this.stackPanel1.Controls.Add(this.breadcrumb2);
-            this.stackPanel1.Controls.Add(this.label3);
-            this.stackPanel1.Controls.Add(this.breadcrumb1);
-            this.stackPanel1.Controls.Add(this.label4);
-            this.stackPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.stackPanel1.Location = new System.Drawing.Point(0, 74);
-            this.stackPanel1.Name = "stackPanel1";
-            this.stackPanel1.Size = new System.Drawing.Size(750, 431);
-            this.stackPanel1.TabIndex = 0;
-            this.stackPanel1.Text = "stackPanel1";
-            this.stackPanel1.Vertical = true;
+            this.panelMain.Controls.Add(this.breadcrumb2);
+            this.panelMain.Controls.Add(this.h2);
+            this.panelMain.Controls.Add(this.breadcrumb1);
+            this.panelMain.Controls.Add(this.h1);
+            this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelMain.Location = new System.Drawing.Point(0, 74);
+            this.panelMain.Name = "panelMain";
+            this.panelMain.Size = new System.Drawing.Size(750, 431);
+            this.panelMain.TabIndex = 0;
             // 
             // breadcrumb2
             // 
-            this.breadcrumb2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F);
-            breadcrumbItem8.IconSvg = "HomeOutlined";
-            breadcrumbItem8.Text = "";
-            breadcrumbItem9.IconSvg = "UserOutlined";
-            breadcrumbItem9.Text = "Application Center";
-            breadcrumbItem10.Text = "Application";
-            this.breadcrumb2.Items.Add(breadcrumbItem8);
-            this.breadcrumb2.Items.Add(breadcrumbItem9);
-            this.breadcrumb2.Items.Add(breadcrumbItem10);
-            this.breadcrumb2.Location = new System.Drawing.Point(3, 101);
+            this.breadcrumb2.Dock = System.Windows.Forms.DockStyle.Top;
+            breadcrumbItem1.IconSvg = "HomeOutlined";
+            breadcrumbItem2.IconSvg = "UserOutlined";
+            breadcrumbItem2.Text = "Application Center";
+            breadcrumbItem3.Text = "Application";
+            this.breadcrumb2.Items.Add(breadcrumbItem1);
+            this.breadcrumb2.Items.Add(breadcrumbItem2);
+            this.breadcrumb2.Items.Add(breadcrumbItem3);
+            this.breadcrumb2.Location = new System.Drawing.Point(0, 80);
             this.breadcrumb2.Name = "breadcrumb2";
-            this.breadcrumb2.Size = new System.Drawing.Size(744, 32);
-            this.breadcrumb2.TabIndex = 49;
-            this.breadcrumb2.Text = "breadcrumb2";
+            this.breadcrumb2.Size = new System.Drawing.Size(750, 32);
+            this.breadcrumb2.TabIndex = 2;
             // 
-            // label3
+            // h2
             // 
-            this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label3.Location = new System.Drawing.Point(3, 71);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(744, 24);
-            this.label3.TabIndex = 48;
-            this.label3.Text = "图标";
+            this.h2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.h2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
+            this.h2.Location = new System.Drawing.Point(0, 56);
+            this.h2.Name = "h2";
+            this.h2.PrefixColour = AntdUI.Colour.Primary;
+            this.h2.PrefixSvg = global::AntdUIDemo.Properties.Resources.icon_divider;
+            this.h2.Size = new System.Drawing.Size(750, 24);
+            this.h2.TabIndex = 0;
+            this.h2.Text = "图标";
             // 
             // breadcrumb1
             // 
-            this.breadcrumb1.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F);
-            breadcrumbItem11.Text = "Home";
-            breadcrumbItem12.Text = "Application Center";
-            breadcrumbItem13.Text = "Application List";
-            breadcrumbItem14.Text = "An Application";
-            this.breadcrumb1.Items.Add(breadcrumbItem11);
-            this.breadcrumb1.Items.Add(breadcrumbItem12);
-            this.breadcrumb1.Items.Add(breadcrumbItem13);
-            this.breadcrumb1.Items.Add(breadcrumbItem14);
-            this.breadcrumb1.Location = new System.Drawing.Point(3, 33);
+            this.breadcrumb1.Dock = System.Windows.Forms.DockStyle.Top;
+            breadcrumbItem4.Text = "Home";
+            breadcrumbItem5.Text = "Application Center";
+            breadcrumbItem6.Text = "Application List";
+            breadcrumbItem7.Text = "An Application";
+            this.breadcrumb1.Items.Add(breadcrumbItem4);
+            this.breadcrumb1.Items.Add(breadcrumbItem5);
+            this.breadcrumb1.Items.Add(breadcrumbItem6);
+            this.breadcrumb1.Items.Add(breadcrumbItem7);
+            this.breadcrumb1.Location = new System.Drawing.Point(0, 24);
             this.breadcrumb1.Name = "breadcrumb1";
-            this.breadcrumb1.Size = new System.Drawing.Size(744, 32);
-            this.breadcrumb1.TabIndex = 47;
-            this.breadcrumb1.Text = "breadcrumb1";
+            this.breadcrumb1.Size = new System.Drawing.Size(750, 32);
+            this.breadcrumb1.TabIndex = 1;
             // 
-            // label4
+            // h1
             // 
-            this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label4.Location = new System.Drawing.Point(3, 3);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(744, 24);
-            this.label4.TabIndex = 46;
-            this.label4.Text = "基本用法";
+            this.h1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.h1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
+            this.h1.Location = new System.Drawing.Point(0, 0);
+            this.h1.Name = "h1";
+            this.h1.PrefixColour = AntdUI.Colour.Primary;
+            this.h1.PrefixSvg = global::AntdUIDemo.Properties.Resources.icon_divider;
+            this.h1.Size = new System.Drawing.Size(750, 24);
+            this.h1.TabIndex = 0;
+            this.h1.Text = "基本用法";
             // 
             // BreadcrumbDemo
             // 
-            
-            this.Controls.Add(this.stackPanel1);
+            this.Controls.Add(this.panelMain);
             this.Controls.Add(this.header1);
             this.Name = "BreadcrumbDemo";
             this.Size = new System.Drawing.Size(750, 505);
-            this.stackPanel1.ResumeLayout(false);
+            this.panelMain.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -139,10 +139,10 @@
         #endregion
 
         private AntdUI.PageHeader header1;
-        private AntdUI.StackPanel stackPanel1;
-        private AntdUI.Label label4;
+        private AntdUI.In.Panel panelMain;
+        private AntdUI.Label h1;
         private AntdUI.Breadcrumb breadcrumb1;
         private AntdUI.Breadcrumb breadcrumb2;
-        private AntdUI.Label label3;
+        private AntdUI.Label h2;
     }
 }

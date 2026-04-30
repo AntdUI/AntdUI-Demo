@@ -1,4 +1,4 @@
-﻿namespace AntdUIDemo.Views
+namespace AntdUIDemo.Views
 {
     partial class SignalDemo
     {
@@ -28,79 +28,77 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.stackPanel1 = new AntdUI.StackPanel();
-            this.flowPanel5 = new AntdUI.FlowPanel();
+            this.panelMain = new AntdUI.In.Panel();
+            this.p5 = new AntdUI.FlowPanel();
             this.signal21 = new AntdUI.Signal();
             this.signal22 = new AntdUI.Signal();
             this.signal25 = new AntdUI.Signal();
             this.signal30 = new AntdUI.Signal();
-            this.label6 = new AntdUI.Label();
-            this.flowPanel2 = new AntdUI.FlowPanel();
+            this.h4 = new AntdUI.Label();
+            this.p4 = new AntdUI.FlowPanel();
             this.signal11 = new AntdUI.Signal();
             this.signal12 = new AntdUI.Signal();
             this.signal13 = new AntdUI.Signal();
             this.signal14 = new AntdUI.Signal();
             this.signal15 = new AntdUI.Signal();
-            this.flowPanel3 = new AntdUI.FlowPanel();
+            this.p3 = new AntdUI.FlowPanel();
             this.signal16 = new AntdUI.Signal();
             this.signal17 = new AntdUI.Signal();
             this.signal18 = new AntdUI.Signal();
             this.signal19 = new AntdUI.Signal();
             this.signal20 = new AntdUI.Signal();
-            this.label5 = new AntdUI.Label();
-            this.flowPanel1 = new AntdUI.FlowPanel();
+            this.h3 = new AntdUI.Label();
+            this.p2 = new AntdUI.FlowPanel();
             this.signal6 = new AntdUI.Signal();
             this.signal7 = new AntdUI.Signal();
             this.signal8 = new AntdUI.Signal();
             this.signal9 = new AntdUI.Signal();
             this.signal10 = new AntdUI.Signal();
-            this.label3 = new AntdUI.Label();
-            this.flowPanel = new AntdUI.FlowPanel();
+            this.h2 = new AntdUI.Label();
+            this.p1 = new AntdUI.FlowPanel();
             this.signal5 = new AntdUI.Signal();
             this.signal4 = new AntdUI.Signal();
             this.signal3 = new AntdUI.Signal();
             this.signal2 = new AntdUI.Signal();
             this.signal1 = new AntdUI.Signal();
-            this.label4 = new AntdUI.Label();
+            this.h1 = new AntdUI.Label();
             this.header1 = new AntdUI.PageHeader();
-            this.stackPanel1.SuspendLayout();
-            this.flowPanel5.SuspendLayout();
-            this.flowPanel2.SuspendLayout();
-            this.flowPanel3.SuspendLayout();
-            this.flowPanel1.SuspendLayout();
-            this.flowPanel.SuspendLayout();
+            this.panelMain.SuspendLayout();
+            this.p5.SuspendLayout();
+            this.p4.SuspendLayout();
+            this.p3.SuspendLayout();
+            this.p2.SuspendLayout();
+            this.p1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // stackPanel1
+            // panelMain
             // 
-            this.stackPanel1.Controls.Add(this.flowPanel5);
-            this.stackPanel1.Controls.Add(this.label6);
-            this.stackPanel1.Controls.Add(this.flowPanel2);
-            this.stackPanel1.Controls.Add(this.flowPanel3);
-            this.stackPanel1.Controls.Add(this.label5);
-            this.stackPanel1.Controls.Add(this.flowPanel1);
-            this.stackPanel1.Controls.Add(this.label3);
-            this.stackPanel1.Controls.Add(this.flowPanel);
-            this.stackPanel1.Controls.Add(this.label4);
-            this.stackPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.stackPanel1.Location = new System.Drawing.Point(0, 74);
-            this.stackPanel1.Name = "stackPanel1";
-            this.stackPanel1.Size = new System.Drawing.Size(750, 423);
-            this.stackPanel1.TabIndex = 0;
-            this.stackPanel1.Text = "stackPanel1";
-            this.stackPanel1.Vertical = true;
+            this.panelMain.Controls.Add(this.p5);
+            this.panelMain.Controls.Add(this.h4);
+            this.panelMain.Controls.Add(this.p4);
+            this.panelMain.Controls.Add(this.p3);
+            this.panelMain.Controls.Add(this.h3);
+            this.panelMain.Controls.Add(this.p2);
+            this.panelMain.Controls.Add(this.h2);
+            this.panelMain.Controls.Add(this.p1);
+            this.panelMain.Controls.Add(this.h1);
+            this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelMain.Location = new System.Drawing.Point(0, 74);
+            this.panelMain.Name = "panelMain";
+            this.panelMain.Size = new System.Drawing.Size(750, 423);
+            this.panelMain.TabIndex = 0;
             // 
-            // flowPanel5
+            // p5
             // 
-            this.flowPanel5.Controls.Add(this.signal21);
-            this.flowPanel5.Controls.Add(this.signal22);
-            this.flowPanel5.Controls.Add(this.signal25);
-            this.flowPanel5.Controls.Add(this.signal30);
-            this.flowPanel5.Location = new System.Drawing.Point(3, 299);
-            this.flowPanel5.Name = "flowPanel5";
-            this.flowPanel5.Size = new System.Drawing.Size(744, 38);
-            this.flowPanel5.TabIndex = 65;
-            this.flowPanel5.Text = "flowPanel1";
+            this.p5.Controls.Add(this.signal21);
+            this.p5.Controls.Add(this.signal22);
+            this.p5.Controls.Add(this.signal25);
+            this.p5.Controls.Add(this.signal30);
+            this.p5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.p5.Location = new System.Drawing.Point(0, 248);
+            this.p5.Name = "p5";
+            this.p5.Size = new System.Drawing.Size(750, 38);
+            this.p5.TabIndex = 5;
             // 
             // signal21
             // 
@@ -146,27 +144,30 @@
             this.signal30.Text = "signal30";
             this.signal30.Value = 1;
             // 
-            // label6
+            // h4
             // 
-            this.label6.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label6.Location = new System.Drawing.Point(3, 269);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(744, 24);
-            this.label6.TabIndex = 64;
-            this.label6.Text = "动画";
+            this.h4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.h4.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
+            this.h4.Location = new System.Drawing.Point(0, 224);
+            this.h4.Name = "h4";
+            this.h4.PrefixColour = AntdUI.Colour.Primary;
+            this.h4.PrefixSvg = global::AntdUIDemo.Properties.Resources.icon_divider;
+            this.h4.Size = new System.Drawing.Size(750, 24);
+            this.h4.TabIndex = 0;
+            this.h4.Text = "动画";
             // 
-            // flowPanel2
+            // p4
             // 
-            this.flowPanel2.Controls.Add(this.signal11);
-            this.flowPanel2.Controls.Add(this.signal12);
-            this.flowPanel2.Controls.Add(this.signal13);
-            this.flowPanel2.Controls.Add(this.signal14);
-            this.flowPanel2.Controls.Add(this.signal15);
-            this.flowPanel2.Location = new System.Drawing.Point(3, 225);
-            this.flowPanel2.Name = "flowPanel2";
-            this.flowPanel2.Size = new System.Drawing.Size(744, 38);
-            this.flowPanel2.TabIndex = 63;
-            this.flowPanel2.Text = "flowPanel2";
+            this.p4.Controls.Add(this.signal11);
+            this.p4.Controls.Add(this.signal12);
+            this.p4.Controls.Add(this.signal13);
+            this.p4.Controls.Add(this.signal14);
+            this.p4.Controls.Add(this.signal15);
+            this.p4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.p4.Location = new System.Drawing.Point(0, 186);
+            this.p4.Name = "p4";
+            this.p4.Size = new System.Drawing.Size(750, 38);
+            this.p4.TabIndex = 4;
             // 
             // signal11
             // 
@@ -223,18 +224,18 @@
             this.signal15.Text = "signal15";
             this.signal15.Value = 1;
             // 
-            // flowPanel3
+            // p3
             // 
-            this.flowPanel3.Controls.Add(this.signal16);
-            this.flowPanel3.Controls.Add(this.signal17);
-            this.flowPanel3.Controls.Add(this.signal18);
-            this.flowPanel3.Controls.Add(this.signal19);
-            this.flowPanel3.Controls.Add(this.signal20);
-            this.flowPanel3.Location = new System.Drawing.Point(3, 181);
-            this.flowPanel3.Name = "flowPanel3";
-            this.flowPanel3.Size = new System.Drawing.Size(744, 38);
-            this.flowPanel3.TabIndex = 62;
-            this.flowPanel3.Text = "flowPanel3";
+            this.p3.Controls.Add(this.signal16);
+            this.p3.Controls.Add(this.signal17);
+            this.p3.Controls.Add(this.signal18);
+            this.p3.Controls.Add(this.signal19);
+            this.p3.Controls.Add(this.signal20);
+            this.p3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.p3.Location = new System.Drawing.Point(0, 148);
+            this.p3.Name = "p3";
+            this.p3.Size = new System.Drawing.Size(750, 38);
+            this.p3.TabIndex = 3;
             // 
             // signal16
             // 
@@ -286,27 +287,30 @@
             this.signal20.Text = "signal20";
             this.signal20.Value = 1;
             // 
-            // label5
+            // h3
             // 
-            this.label5.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label5.Location = new System.Drawing.Point(3, 151);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(744, 24);
-            this.label5.TabIndex = 60;
-            this.label5.Text = "自定义底色";
+            this.h3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.h3.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
+            this.h3.Location = new System.Drawing.Point(0, 124);
+            this.h3.Name = "h3";
+            this.h3.PrefixColour = AntdUI.Colour.Primary;
+            this.h3.PrefixSvg = global::AntdUIDemo.Properties.Resources.icon_divider;
+            this.h3.Size = new System.Drawing.Size(750, 24);
+            this.h3.TabIndex = 0;
+            this.h3.Text = "自定义底色";
             // 
-            // flowPanel1
+            // p2
             // 
-            this.flowPanel1.Controls.Add(this.signal6);
-            this.flowPanel1.Controls.Add(this.signal7);
-            this.flowPanel1.Controls.Add(this.signal8);
-            this.flowPanel1.Controls.Add(this.signal9);
-            this.flowPanel1.Controls.Add(this.signal10);
-            this.flowPanel1.Location = new System.Drawing.Point(3, 107);
-            this.flowPanel1.Name = "flowPanel1";
-            this.flowPanel1.Size = new System.Drawing.Size(744, 38);
-            this.flowPanel1.TabIndex = 59;
-            this.flowPanel1.Text = "flowPanel1";
+            this.p2.Controls.Add(this.signal6);
+            this.p2.Controls.Add(this.signal7);
+            this.p2.Controls.Add(this.signal8);
+            this.p2.Controls.Add(this.signal9);
+            this.p2.Controls.Add(this.signal10);
+            this.p2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.p2.Location = new System.Drawing.Point(0, 86);
+            this.p2.Name = "p2";
+            this.p2.Size = new System.Drawing.Size(750, 38);
+            this.p2.TabIndex = 2;
             // 
             // signal6
             // 
@@ -358,27 +362,30 @@
             this.signal10.Text = "signal10";
             this.signal10.Value = 1;
             // 
-            // label3
+            // h2
             // 
-            this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label3.Location = new System.Drawing.Point(3, 77);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(744, 24);
-            this.label3.TabIndex = 58;
-            this.label3.Text = "线条样式";
+            this.h2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.h2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
+            this.h2.Location = new System.Drawing.Point(0, 62);
+            this.h2.Name = "h2";
+            this.h2.PrefixColour = AntdUI.Colour.Primary;
+            this.h2.PrefixSvg = global::AntdUIDemo.Properties.Resources.icon_divider;
+            this.h2.Size = new System.Drawing.Size(750, 24);
+            this.h2.TabIndex = 0;
+            this.h2.Text = "线条样式";
             // 
-            // flowPanel
+            // p1
             // 
-            this.flowPanel.Controls.Add(this.signal5);
-            this.flowPanel.Controls.Add(this.signal4);
-            this.flowPanel.Controls.Add(this.signal3);
-            this.flowPanel.Controls.Add(this.signal2);
-            this.flowPanel.Controls.Add(this.signal1);
-            this.flowPanel.Location = new System.Drawing.Point(3, 33);
-            this.flowPanel.Name = "flowPanel";
-            this.flowPanel.Size = new System.Drawing.Size(744, 38);
-            this.flowPanel.TabIndex = 57;
-            this.flowPanel.Text = "flowPanel1";
+            this.p1.Controls.Add(this.signal5);
+            this.p1.Controls.Add(this.signal4);
+            this.p1.Controls.Add(this.signal3);
+            this.p1.Controls.Add(this.signal2);
+            this.p1.Controls.Add(this.signal1);
+            this.p1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.p1.Location = new System.Drawing.Point(0, 24);
+            this.p1.Name = "p1";
+            this.p1.Size = new System.Drawing.Size(750, 38);
+            this.p1.TabIndex = 1;
             // 
             // signal5
             // 
@@ -425,14 +432,17 @@
             this.signal1.Text = "signal1";
             this.signal1.Value = 1;
             // 
-            // label4
+            // h1
             // 
-            this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label4.Location = new System.Drawing.Point(3, 3);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(744, 24);
-            this.label4.TabIndex = 56;
-            this.label4.Text = "基本用法";
+            this.h1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.h1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
+            this.h1.Location = new System.Drawing.Point(0, 0);
+            this.h1.Name = "h1";
+            this.h1.PrefixColour = AntdUI.Colour.Primary;
+            this.h1.PrefixSvg = global::AntdUIDemo.Properties.Resources.icon_divider;
+            this.h1.Size = new System.Drawing.Size(750, 24);
+            this.h1.TabIndex = 0;
+            this.h1.Text = "基本用法";
             // 
             // header1
             // 
@@ -444,59 +454,59 @@
             this.header1.Name = "header1";
             this.header1.Padding = new System.Windows.Forms.Padding(0, 0, 0, 10);
             this.header1.Size = new System.Drawing.Size(750, 74);
-            this.header1.TabIndex = 27;
+            this.header1.TabIndex = 0;
             this.header1.Text = "Signal 信号";
             this.header1.UseTitleFont = true;
             // 
             // SignalDemo
             // 
-            this.Controls.Add(this.stackPanel1);
+            this.Controls.Add(this.panelMain);
             this.Controls.Add(this.header1);
             this.Name = "SignalDemo";
             this.Size = new System.Drawing.Size(750, 497);
-            this.stackPanel1.ResumeLayout(false);
-            this.flowPanel5.ResumeLayout(false);
-            this.flowPanel2.ResumeLayout(false);
-            this.flowPanel3.ResumeLayout(false);
-            this.flowPanel1.ResumeLayout(false);
-            this.flowPanel.ResumeLayout(false);
+            this.panelMain.ResumeLayout(false);
+            this.p5.ResumeLayout(false);
+            this.p4.ResumeLayout(false);
+            this.p3.ResumeLayout(false);
+            this.p2.ResumeLayout(false);
+            this.p1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private AntdUI.StackPanel stackPanel1;
-        private AntdUI.FlowPanel flowPanel;
-        private AntdUI.Label label4;
+        private AntdUI.In.Panel panelMain;
+        private AntdUI.FlowPanel p1;
+        private AntdUI.Label h1;
         private AntdUI.Signal signal4;
         private AntdUI.Signal signal3;
         private AntdUI.Signal signal2;
         private AntdUI.Signal signal1;
         private AntdUI.Signal signal5;
-        private AntdUI.Label label3;
-        private AntdUI.FlowPanel flowPanel1;
+        private AntdUI.Label h2;
+        private AntdUI.FlowPanel p2;
         private AntdUI.Signal signal6;
         private AntdUI.Signal signal7;
         private AntdUI.Signal signal8;
         private AntdUI.Signal signal9;
         private AntdUI.Signal signal10;
-        private AntdUI.Label label5;
-        private AntdUI.FlowPanel flowPanel3;
+        private AntdUI.Label h3;
+        private AntdUI.FlowPanel p3;
         private AntdUI.Signal signal16;
         private AntdUI.Signal signal17;
         private AntdUI.Signal signal18;
         private AntdUI.Signal signal19;
         private AntdUI.Signal signal20;
-        private AntdUI.FlowPanel flowPanel2;
+        private AntdUI.FlowPanel p4;
         private AntdUI.Signal signal11;
         private AntdUI.Signal signal12;
         private AntdUI.Signal signal13;
         private AntdUI.Signal signal14;
         private AntdUI.Signal signal15;
-        private AntdUI.FlowPanel flowPanel5;
+        private AntdUI.FlowPanel p5;
         private AntdUI.Signal signal30;
-        private AntdUI.Label label6;
+        private AntdUI.Label h4;
         private AntdUI.Signal signal25;
         private AntdUI.Signal signal21;
         private AntdUI.Signal signal22;

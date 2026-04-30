@@ -1,7 +1,4 @@
-﻿using AntdUI;
-using AntdUIDemo.Utils;
-using System.Collections.Generic;
-using System.IO;
+using AntdUI;
 using System.Windows.Forms;
 
 namespace AntdUIDemo.Controls

@@ -13,7 +13,7 @@
 		<Copyright>Copyright © 2025 czz_y</Copyright>
 		<FileVersion>$(Version)</FileVersion>
 		<AssemblyVersion>$(Version)</AssemblyVersion>
-		<Version>2.1.0</Version>
+		<Version>2.3.12</Version>
 		<Authors>czz_y</Authors>
 		<Description>基于 Winform UI 框架 AntdUI 设计的 Demo</Description>
 		<PackageProjectUrl>https://gitee.com/mubaiyanghua/antd-uidemo</PackageProjectUrl>
@@ -30,7 +30,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="AntdUI" Version="2.1.0" />
+		<PackageReference Include="AntdUI" Version="2.3.12" />
+		<PackageReference Include="AntdUI.EmojiFluentFlat" Version="2026.2.25" />
 		<PackageReference Include="Costura.Fody" Version="6.0.0">
 		  <PrivateAssets>all</PrivateAssets>
 		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

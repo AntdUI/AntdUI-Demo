@@ -1,4 +1,4 @@
-﻿namespace AntdUIDemo.Views
+namespace AntdUIDemo.Views
 {
     partial class MsgListDemo
     {
@@ -44,7 +44,6 @@
             this.panel1.Shadow = 12;
             this.panel1.Size = new System.Drawing.Size(750, 397);
             this.panel1.TabIndex = 0;
-            this.panel1.Text = "panel1";
             // 
             // msgList
             // 
@@ -54,7 +53,6 @@
             this.msgList.Name = "msgList";
             this.msgList.Size = new System.Drawing.Size(220, 373);
             this.msgList.TabIndex = 0;
-            this.msgList.Text = "msgList1";
             // 
             // header1
             // 

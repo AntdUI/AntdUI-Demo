@@ -1,14 +1,5 @@
-﻿using AntdUI;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace AntdUIDemo.Views.SubView
 {
@@ -19,12 +10,12 @@ namespace AntdUIDemo.Views.SubView
         {
             popover = _popover;
             InitializeComponent();
-            InitData(title, text, step ,max);
+            InitData(title, text, step, max);
             BindEventHandler();
-            
+
         }
 
-        private void InitData(string title,string text,int step ,int max)
+        private void InitData(string title, string text, int step, int max)
         {
             label1.Text = title;
             label2.Text = text;

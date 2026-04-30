@@ -1,4 +1,4 @@
-﻿namespace AntdUIDemo.Views.SubView
+namespace AntdUIDemo.Views.SubView
 {
     partial class Wellcome
     {

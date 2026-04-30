@@ -1,4 +1,4 @@
-﻿using AntdUI;
+using AntdUI;
 using AntdUIDemo.Controls;
 using AntdUIDemo.Languages;
 using AntdUIDemo.Models;
@@ -16,7 +16,6 @@ namespace AntdUIDemo
     {
         private UserControl currControl;
         private bool isUpdatingTabs = false;//用于阻止Tabs更新
-        private bool isLight = true;
         // 定义一个语言切换事件
         public event EventHandler LanguageChanged;
         public MainWindow()
@@ -39,11 +38,10 @@ namespace AntdUIDemo
 
         private void InitData()
         {
-            dropdown_translate.SelectedValue = dropdown_translate.Items[0];
+            Theme().Button(button_color);
             //根据系统亮暗初始化一次
-            isLight = ThemeHelper.IsLightMode();
-            button_color.Toggle = !isLight;
-            ThemeHelper.SetColorMode(this, isLight);
+            Config.IsLight = ThemeHelper.IsLightMode();
+            dropdown_translate.SelectedValue = dropdown_translate.Items[0];
             //初始化消息弹出位置
             Config.ShowInWindow = true;
 
@@ -92,17 +90,8 @@ namespace AntdUIDemo
                         if (item.Text == closeall)
                         {
                             tabs.SelectedIndex = 0;
-                            // 只清除从第二个页面开始的控件
-                            for (int i = 1; i < tabs.Pages.Count; i++)
-                            {
-                                tabs.Pages[i].Controls.Clear();
-                            }
-
                             // 移除除了第一个页面之外的所有页面
-                            if (tabs.Pages.Count > 1)
-                            {
-                                tabs.Pages.RemoveRange(1, tabs.Pages.Count - 1);  // 从索引1开始，移除后面的所有页面
-                            }
+                            if (tabs.Pages.Count > 1) tabs.Pages.RemoveRange(1, tabs.Pages.Count - 1);  // 从索引1开始，移除后面的所有页面
                             menu.Select(null);
                             menu.Refresh();
                         }
@@ -141,10 +130,9 @@ namespace AntdUIDemo
 
         private void Button_collapse_Click(object sender, EventArgs e)
         {
-            if (menu.Collapsed) panel_left.Width = (int)(250 * Config.Dpi);
-            else panel_left.Width = (int)(50 * Config.Dpi);
-            button_collapse.Toggle = !button_collapse.Toggle;
-            menu.Collapsed = !menu.Collapsed;
+            menu.Collapsed = button_collapse.Toggle = !menu.Collapsed;
+            if (menu.Collapsed) panel_left.Width = (int)(50 * Config.Dpi);
+            else panel_left.Width = (int)(250 * Config.Dpi);
         }
 
         private void Input_search_textchanged(object sender, EventArgs e)
@@ -157,20 +145,12 @@ namespace AntdUIDemo
 
         private void SystemEvents_UserPreferenceChanged(object sender, UserPreferenceChangedEventArgs e)
         {
-            if (e.Category == UserPreferenceCategory.General)
-            {
-                isLight = ThemeHelper.IsLightMode();
-                button_color.Toggle = !isLight;
-                ThemeHelper.SetColorMode(this, isLight);
-            }
+            if (e.Category == UserPreferenceCategory.General) Config.IsLight = !Config.IsLight;
         }
 
         private void Button_color_Click(object sender, EventArgs e)
         {
-            isLight = !isLight;
-            //这里使用了Toggle属性切换图标
-            button_color.Toggle = !isLight;
-            ThemeHelper.SetColorMode(this, isLight);
+            Config.IsLight = !Config.IsLight;
         }
 
         private void ButtonSZ_Click(object sender, EventArgs e)
@@ -487,9 +467,8 @@ namespace AntdUIDemo
                     Text = name,
                 };
                 tabPage.Controls.Add(control);
-                tabs.Pages.Add(tabPage);
                 isUpdatingTabs = true;
-                tabs.SelectedTab = tabPage;
+                tabs.AddTabSelect(tabPage);
                 isUpdatingTabs = false;
                 currControl = control;
             }

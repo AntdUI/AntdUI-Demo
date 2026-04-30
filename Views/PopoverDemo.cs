@@ -1,4 +1,4 @@
-﻿using AntdUI;
+using AntdUI;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
@@ -43,7 +43,7 @@ namespace AntdUIDemo.Views
             var button = sender as AntdUI.Button;
             var popovercalendar = new AntdUI.Calendar()
             {
-                Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point),
+                Font = new Font("Microsoft YaHei UI", 10F, FontStyle.Regular, GraphicsUnit.Point),
                 Size = new Size(150, 300),
                 Full = true,
             };
@@ -82,7 +82,7 @@ namespace AntdUIDemo.Views
             var button = sender as AntdUI.Button;
             var popoverbutton = new AntdUI.Button()
             {
-                Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point),
+                Font = new Font("Microsoft YaHei UI", 10F, FontStyle.Regular, GraphicsUnit.Point),
                 Size = new Size(90, 32),
                 WaveSize = 0,
                 Text = "PopoverButton",
@@ -110,7 +110,7 @@ namespace AntdUIDemo.Views
         {
             Popover.open(new Popover.Config(button_close, "Title", "Content\r\nContent\r\nContent")
             {
-                Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point),
+                Font = new Font("Microsoft YaHei UI", 10F, FontStyle.Regular, GraphicsUnit.Point),
                 AutoClose = 1
             });
         }
@@ -119,7 +119,7 @@ namespace AntdUIDemo.Views
         {
             Popover.open(new Popover.Config(button_base, "Title", "Content\r\nContent\r\nContent")
             {
-                Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point),
+                Font = new Font("Microsoft YaHei UI", 10F, FontStyle.Regular, GraphicsUnit.Point),
             });
         }
 
@@ -173,7 +173,7 @@ namespace AntdUIDemo.Views
 
             Popover.open(new Popover.Config(button, "Title", "Content\r\nContent\r\nContent")
             {
-                Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point),
+                Font = new Font("Microsoft YaHei UI", 10F, FontStyle.Regular, GraphicsUnit.Point),
                 AutoClose = 3,
                 ArrowSize = 12,
                 ArrowAlign = align,

@@ -1,4 +1,4 @@
-﻿namespace AntdUIDemo.Controls
+namespace AntdUIDemo.Controls
 {
     partial class SystemSet
     {
@@ -64,7 +64,6 @@
             // tabs
             // 
             this.tabs.Alignment = System.Windows.Forms.TabAlignment.Left;
-            this.tabs.Cursor = System.Windows.Forms.Cursors.Hand;
             this.tabs.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabs.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
             this.tabs.Gap = 12;
@@ -114,14 +113,11 @@
             // 
             // switch_scrollbar
             // 
-            this.switch_scrollbar.CheckedText = "";
-            this.switch_scrollbar.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.switch_scrollbar.Location = new System.Drawing.Point(189, 3);
             this.switch_scrollbar.Name = "switch_scrollbar";
             this.switch_scrollbar.Size = new System.Drawing.Size(60, 26);
             this.switch_scrollbar.TabIndex = 1;
             this.switch_scrollbar.Text = "switch4";
-            this.switch_scrollbar.UnCheckedText = "";
             this.switch_scrollbar.WaveSize = 0;
             // 
             // label4
@@ -147,14 +143,11 @@
             // switch_shadow
             // 
             this.switch_shadow.Checked = true;
-            this.switch_shadow.CheckedText = "";
-            this.switch_shadow.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.switch_shadow.Location = new System.Drawing.Point(189, 3);
             this.switch_shadow.Name = "switch_shadow";
             this.switch_shadow.Size = new System.Drawing.Size(60, 26);
             this.switch_shadow.TabIndex = 1;
             this.switch_shadow.Text = "switch3";
-            this.switch_shadow.UnCheckedText = "";
             this.switch_shadow.WaveSize = 0;
             // 
             // label3
@@ -180,14 +173,11 @@
             // switch_animation
             // 
             this.switch_animation.Checked = true;
-            this.switch_animation.CheckedText = "";
-            this.switch_animation.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.switch_animation.Location = new System.Drawing.Point(189, 3);
             this.switch_animation.Name = "switch_animation";
             this.switch_animation.Size = new System.Drawing.Size(60, 26);
             this.switch_animation.TabIndex = 1;
             this.switch_animation.Text = "switch2";
-            this.switch_animation.UnCheckedText = "";
             this.switch_animation.WaveSize = 0;
             // 
             // label2
@@ -203,7 +193,7 @@
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.stackPanel6);
-            this.tabPage2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.tabPage2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F);
             this.tabPage2.Location = new System.Drawing.Point(90, 6);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Size = new System.Drawing.Size(502, 384);
@@ -263,14 +253,11 @@
             // 
             // switch_showinwindow
             // 
-            this.switch_showinwindow.CheckedText = "";
-            this.switch_showinwindow.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.switch_showinwindow.Location = new System.Drawing.Point(189, 3);
             this.switch_showinwindow.Name = "switch_showinwindow";
             this.switch_showinwindow.Size = new System.Drawing.Size(60, 26);
             this.switch_showinwindow.TabIndex = 1;
             this.switch_showinwindow.Text = "switch5";
-            this.switch_showinwindow.UnCheckedText = "";
             this.switch_showinwindow.WaveSize = 0;
             // 
             // label5
